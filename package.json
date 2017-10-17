@@ -1,0 +1,28 @@
+{
+  "name": "gul-demo",
+  "version": "1.0.0",
+  "description": "demo sobre uso de gulp",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp",
+    "javascript"
+  ],
+  "author": "pedro",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-dev": "^0.3.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-webserver": "^0.9.1",
+    "jshint": "^2.9.5",
+    "jshint-stylish": "^2.2.1",
+    "pug": "^2.0.0-rc.4"
+  }
+}
