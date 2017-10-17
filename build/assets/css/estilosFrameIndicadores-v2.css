@@ -1,0 +1,279 @@
+#galeriaGraficos
+{
+	  overflow:hidden;
+      position:relative;
+      width:218px;
+      height:165px;
+	  background:#fff;
+    }
+
+#galeriaGraficos table{
+      display:none;
+      position:absolute;
+      top:0;
+      left:0;
+    }
+
+#galeriaGraficos .info{
+	padding-left:8px;
+	}
+
+#galeriaGraficos .grafico{
+	text-align:center;
+	}
+
+#galeriaGraficos table.active{
+      display:block;
+    }
+
+#galeriaAcciones{
+	overflow:hidden;
+      position:relative;
+      width:218px;
+      height:98px;
+	  background:#fff;
+	  border-bottom:1px solid #efefef;
+	}
+
+#indicadores{
+      position:relative;
+      width:100%;
+      height:30px;
+	  padding-bottom:0px;
+	  border-bottom:1px solid #efefef;
+	  background:#fff;
+    }
+
+#indicadoresDolar{
+      position:relative;
+      width:218px;
+      height:65px;
+	  padding-bottom:0px;
+	  border-bottom:1px solid #efefef;
+	  background:#fff;
+    }
+#indicadoresBolsa{
+      position:relative;
+      width:218px;
+      height:75px;
+	  padding:0px;
+  	  border-bottom:1px solid #efefef;
+	  background:#fff;
+}
+#galeriaAcciones table{
+	  width:210px;
+	  display:none;
+      position:absolute;
+      top:0;
+      left:0;
+	  margin:8px 0px 8px 5px;
+    }
+#galeriaAcciones table.active{
+      display:block;
+	  width:210px;
+    }
+
+#iframeIndicadores{
+	background:#fbfbfb;
+	border-left:1px solid #efefef;
+}
+
+#iframeIndicadores table td.info{
+	background:#fff none repeat scroll 0 0;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:bold;
+}
+
+#iframeIndicadores table td.title{
+	font-family:Arial;
+	font-size:11px;
+	color:#666;
+	font-weight:bold;
+	height:18px;
+	vertical-align:middle;
+	padding:0px 0px 0px 8px;
+	background-color:#efefef;
+}
+
+#iframeIndicadores table td.tableTop{
+	background:#fff;
+	font-family:Arial;
+	font-size:9px;
+	width:109px;
+	text-align:center;
+}
+
+#iframeIndicadores table td.tableTopBold{
+	background:#fff none repeat scroll 0 0;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:bold;
+	padding-left:3px;
+	
+}
+
+
+#iframeIndicadores .tableTopBoldUF{
+	font-family:Arial;
+	font-size:11px;
+	font-weight:bold;
+	padding:0px 0px 1px 8px;
+	vertical-align:bottom;
+}
+
+#iframeIndicadores table td.titulo{
+	padding:3px 0px 2px 0px;
+}
+
+#iframeIndicadores table td.left{
+	text-align:left;
+}
+
+#iframeIndicadores table td.right{
+	text-align:right;
+}
+
+.variacion{
+	border-right:1px solid #efefef;
+}
+
+#galeriaAcciones table td.tableCompanyShare{
+	background:#fff;
+	font-family:Arial;
+	font-size:11px;
+	text-align:left;
+	padding-left:3px;
+	width:82px;
+}
+
+#galeriaAcciones table td.tableDataShare{
+	font-family:Arial;
+	font-size:11px;
+	text-align:right;
+	padding-right:2px;
+	padding-left:0px;
+	color:#0074b8;
+}
+
+
+#iframeIndicadores table td.bolsaIndiceDown{
+	background:#fff;
+	font-family:Arial;
+	font-size:14px;
+	font-weight: bold;
+	color: red;
+	text-align: center;
+	padding:8px 0px 0px 0px;
+}
+
+#iframeIndicadores table td.bolsaIndiceUp{
+	background:#fff;
+	font-family:Arial;
+	font-size:14px;
+	font-weight: bold;
+	color: #01cc34;
+	text-align: center;
+	padding:8px 0px 0px 0px;
+}
+
+#iframeIndicadores table td.bolsaIndiceDownB{
+	background:#fff;
+	font-family:Arial;
+	font-size:10px;
+	color: red;
+	text-align: center;
+	padding:0px 0px 0px 0px;
+}
+
+#iframeIndicadores table td.bolsaIndiceUpB{
+	background:#fff;
+	font-family:Arial;
+	font-size:10px;
+	color: #01cc34;
+	text-align: center;
+	padding:0px 0px 0px 0px;
+}
+
+#iframeIndicadores div.buttons{
+    background-color:#efefef;
+	font-family:arial;
+	font-size:11px;
+	color:#666;
+	font-weight:bold;
+	padding:1px 0px 0px 8px;
+	height:17px;
+	vertical-align:bottom;
+}
+
+#iframeIndicadores table td.tableInfo{
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	text-align: center;
+	vertical-align:bottom;
+	padding-top:8px;
+	color:#0074b8;
+	background:#fff;
+}
+
+#iframeIndicadores table {
+	width: 218px;
+	border-collapse: collapse;
+	background:#fff;
+}
+
+#iframeIndicadores td {
+	padding:0px;
+}
+
+#iframeIndicadores{
+    width:218px;
+}
+#iframeIndicadores p{
+	color:Black;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+}
+
+#cargandoindicadores span{
+	font-family:arial;
+	font-size:11px;
+	color:#FF7900;
+	background-position: 0% 40%;
+	background-repeat: no-repeat;
+	background-image: url(../images/loading.gif);
+	padding-left: 25px;
+	vertical-align: bottom;
+}
+
+.flash{
+	background:#FF0 !important;
+	color:#F00 !important;
+}
+
+.flashUp{
+	background:#093 !important;
+	color:#FFF !important;
+}
+
+.flashDown{
+	background:#F00 !important;
+	color:#FFF !important;
+}
+
+.imagenGrafico{
+width:205px;
+height:145px;
+}
+
+.button-prev{
+vertical-align:bottom;
+padding:0px 3px 1px 0px;
+}
+
+.button-next{
+vertical-align:bottom;
+padding:0px 0px 1px 0px;
+}

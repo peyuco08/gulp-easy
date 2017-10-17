@@ -1,0 +1,294 @@
+/* ==========================================================================
+   ICONS
+   ========================================================================== */
+[class^="icon-"],
+[class*=" icon-"] {
+  background-image: url(../img/icon-azul-p.png);
+}  
+
+[class*="icon-grande"]  { background-image: url(../img/icon-azul-large-p.png); } 
+[class*="icon-xlarge"]  { background-image: url(../img/icon-azul-xlarge-p.png); }
+
+
+
+
+
+
+/* ==========================================================================
+   BREADCRUMBS PERSONAS
+   ========================================================================== */
+.breadcrumbs {
+  background: url(../img/bg-head-cuentas.jpg) repeat-x #EBE8E1;
+}
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   HEADER PERSONAS
+   ========================================================================== */
+#header,
+.wpthemeBannerInner {
+   background: url(../img/bg-header.jpg) 0 0 repeat-x; 
+}
+
+.nav-top,
+.wpthemeBanner .wpthemePrimaryNav {
+  border-right: 1px solid #db6d1d;
+}
+
+#nav-principal li,
+.wpthemeBanner .wpthemeInner .wpthemePrimaryNav li {
+  border-left: 1px solid #db6d1d;
+}
+
+#nav-principal li a,
+.wpthemeBanner .wpthemeInner .wpthemePrimaryNav li a {
+   color: #fff;
+}
+
+#nav-principal .icon-nav-bottom { 
+   background-image: url(../img/icon-blanco.png);
+}
+
+#nav-principal .dropdown:hover .icon-nav-bottom { 
+   background-image: url(../img/icon-naranjo.png);
+}
+
+
+/* ===================================
+   NAV PRINCIPAL
+   =================================== */
+   
+
+/* ==========================================================================
+   NAV USER
+   ========================================================================== */
+.nav1, .nav1 a { width: 139px; }
+.nav2, .nav2 a { width: 164px; }
+.nav3, .nav3 a { width: 133px; }
+
+.nav1 a { *width: 100px; }
+.nav2 a { *width: 126px; }
+.nav3 a { *width: 93px; }
+
+.nav-user li a {
+  color: #FFF;
+}
+
+.nav-user > ul > li {
+  border: 1px solid #f57921;
+}
+
+.nav-user ul > li:hover  {
+  border: 1px solid #dd6d00;
+}
+
+.nav-user i {
+  background-image: url(../img/icon-blanco.png);
+}
+
+
+.cerrarsesion button {
+  color: #fff;
+}
+
+.nav-user .mensaje {
+  background: #003767;
+}
+
+
+
+/* ==========================================================================
+   ALERTA CAMPANA
+   ========================================================================== */
+.alerta-campanas .arrow-top {
+  background:url(../img/arrows-p.png) 0 0 no-repeat;
+}
+
+
+
+
+/* ==========================================================================
+   TABLA THEAD COLOR
+   ========================================================================== */
+html .table-thead th,
+html .table-thead th:hover {
+   background: url(../img/bg-table-thead-p.jpg) 0 0 repeat-x #ff7714;
+}
+
+.table-thead .filtrar-top i,
+.table-thead .filtrar-bottom i {
+   background-image: url(../img/icon-naranjo.png);
+}
+
+html .table-thead a.tableHeadSortLink:hover {
+  background: none;
+}
+
+.table-thead thead i,
+.table-thead thead i {
+   background-image: url(../img/icon-blanco.png);
+}
+
+.table-thead tr td + i {
+   background-image: url(../img/icon-azul-p.png);
+}
+
+/* ==========================================================================
+   PORLET
+   ========================================================================== */
+.nav-header:hover .icon-accion {
+  background-image: url(../img/icon-azul-p.png);
+}
+
+/* ==========================================================================
+   PORLET - CONFIGURAR
+   ========================================================================== */
+.ajustes-config ul {
+  clear: both;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.ajustes-config li {
+  width: 300px;
+  float: left;
+} 
+
+
+/* ==========================================================================
+   LOGIN
+   ========================================================================== */
+
+
+
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+#footer {
+  width: 100%;
+  min-width: 1000px;
+  clear: both;
+  margin-top:25px;
+  /*background:url(../img/bg-footer.jpg) repeat-x 0 0;*/
+    border-bottom: 1px solid #e6e6e6;
+  background: #999;
+}
+
+#footer i { margin-right: 10px; }
+
+#footer .contenedor-footer {
+  width:940px;
+  height:auto;
+  margin:0 auto;
+  overflow:hidden;
+}
+
+.contenedor-footer a, 
+.contenedor-footer .mensaje{
+  float:left;
+  height:68px;
+  padding:12px 0 0;
+  color:#fff;
+  width:155px;
+}
+.contenedor-footer .mensaje span {
+  display:block;
+}
+.contenedor-footer a:hover {
+  text-decoration:none;
+  color:#fff;
+}
+.contenedor-footer a span {
+  font-size:12px;
+  color:#fff;
+  display:block;
+  line-height: 15px;
+    margin-top: 6px;
+}
+.contenedor-footer a span:hover {
+  color:#fff;
+  text-decoration: underline;
+}
+.contenedor-footer .phone {
+  padding:23px 0;
+  float:left;
+  width:590px;
+  margin-right:15px;
+}
+.contenedor-footer .phone p {
+  display: block;
+    float: left;
+    font-size: 12px;
+    margin: 5px 20px 0 0;
+    width: auto;
+}
+
+.contenedor-footer .phone a {
+  float: none;
+}
+
+.contenedor-footer p, .contenedor-footer span {
+  color:#fff;
+}
+
+/*.contenedor-footer .mensaje {
+  background:url(../img/bg-header-li.png) repeat-y right center;
+}*/
+
+.contenedor-footer .margen-parrafo {
+  margin-left: 29px;
+}
+
+.bottom-footer {
+  width: 100%;
+  height: 28px;
+  line-height: 28px;
+  background: url(../img/bg-bottom-footer.png) 0 0 repeat-x;
+  clear: both;
+  text-align: center;
+  color: #003766;
+}
+
+.bottom-footer a {
+  /*color: #F47920;*/
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+
+
+/* ==========================================================================
+   FONDOS NARANJOS
+   ========================================================================== */
+html body .bg-primario,
+.campana,
+.alert-content,
+html body .cont-paginator .activado a,
+html body .cont-paginator .activado span,
+.nav-titulos-content ul li.activado,
+.agente-inversion .head,
+.anuncio-login { background: #F3791F; }
+
+html body .bg-secundario  { background: #32434D; }
+
+/* ==========================================================================
+   FORM COLUMNAS
+   ========================================================================== */
+#form-deposito-dap {
+  width: 600px;
+}
+
+
+
+@media screen and ( min-width: 1200px) { 
+  .porlet-inversiones-contenido .left    { width: 600px; float: left; }
+}

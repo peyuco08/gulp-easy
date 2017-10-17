@@ -1,0 +1,608 @@
+/* ==========================================================================
+   ICONS
+   ========================================================================== */
+[class^="icon-"],
+[class*=" icon-"] {
+  background-image: url(../img/icon-azul-e.png);
+}  
+
+[class*="icon-grande"]  { background-image: url(../img/icon-azul-large-e.png); } 
+[class*="icon-xlarge"]  { background-image: url(../img/icon-azul-xlarge-e.png); }
+
+
+
+
+
+
+/* ==========================================================================
+   BREADCRUMBS EMPRESAS
+   ========================================================================== */
+.breadcrumbs {
+  background: #f5f5f5;
+  border-top: 1px solid #DDD;
+  border-bottom: 1px solid #DDD;
+}
+
+.breadcrumbs .icon-home {
+  background-position: -1665px 0;
+}
+
+
+
+
+/* ==========================================================================
+   HEADER EMPRESAS
+   ========================================================================== */
+#header,
+.wpthemeBannerInner {
+  background: #F4F3F1!important;
+}
+
+.nav-top,
+.wpthemeBanner .wpthemePrimaryNav {
+   border-right: 1px solid #e4e4e4;
+}
+
+#nav-principal li,
+.wpthemeBanner .wpthemeInner .wpthemePrimaryNav li {
+  border-left:  1px solid #e4e4e4;
+}
+
+#nav-principal li a,
+.wpthemeBanner .wpthemeInner .wpthemePrimaryNav li a {
+  color: #003766;
+}
+
+#nav-principal .icon-nav-bottom { 
+  background-image: url(../img/icon-naranjo.png);
+}
+
+
+/* ===================================
+   NAV PRINCIPAL
+   =================================== */
+#nav-principal > li > a {
+
+}
+
+
+
+
+/* ==========================================================================
+   NAV USER
+   ========================================================================== */
+.nav1, .nav1 a { width: 123px; }
+.nav2, .nav2 a { width: 147px; }
+.nav3, .nav3 a { width: 142px; }
+.nav4, .nav4 a { width: 115px; }
+
+.nav1 a { *width: 85px; }
+.nav2 a { *width: 109px; }
+.nav3 a { *width: 104px; }
+.nav4 a { *width: 76px; }
+
+
+.nav-user > ul > li {
+  border: 1px solid #F4F3F1;
+}
+
+.nav-user ul > li:hover  {
+  border: 1px solid #DDD;
+}
+
+
+
+
+
+.nav-user i {
+  background-image: url(../img/icon-azul-e.png)!important;
+}
+
+
+.nav-user .mensaje {
+  background: #F3791F;
+}
+
+
+
+/* ==========================================================================
+   ALERTA CAMPANA
+   ========================================================================== */
+.alerta-campanas .arrow-top {
+  background:url(../img/arrows-e.png) 0 0 no-repeat;
+}
+
+.table-thead .filtrar-top i,
+.table-thead .filtrar-bottom i {
+   background-image: url(../img/icon-azul-e.png);
+}
+
+
+
+
+/* ==========================================================================
+   TABLA THEAD COLOR
+   ========================================================================== */
+html .table-thead th,
+.table-thead th:hover {
+   background: url(../img/bg-table-thead-e.jpg) 0 0 repeat-x #022B59;
+}
+
+html .table-thead th i {
+   background-image: url(../img/icon-blanco.png);
+}
+
+.rows th {
+  background: #022B59!important;
+}
+
+html .table-thead a.tableHeadSortLink:hover {
+  background: none;
+}
+
+.table-thead th img[src*="arrow_down.gif"] {
+  content: url("../img/arrow-down-e.png")!important;
+}
+
+
+
+.dj_gecko .table-thead th img[src*="arrow_down.gif"]:before {
+  content: url("../img/arrow-down-e.png")!important;
+}
+
+
+
+
+
+.table-thead th img[src*="arrow_up.gif"] {
+  content: url("../img/arrow-up-e.png")!important;
+}
+
+/* ==========================================================================
+   PORLET
+   ========================================================================== */
+.nav-header:hover .icon-accion {
+  background-image: url(../img/icon-azul-e.png);
+}
+
+
+/* ==========================================================================
+   PORLET FOOTER
+   ========================================================================== */
+.porlet-footer i {
+
+}
+
+/* ==========================================================================
+   PORLET - CONFIGURAR
+   ========================================================================== */
+.ajustes-config ul {
+  clear: both;
+  overflow-y: scroll;
+  margin: 0px 0 30px 0;
+  height: 96px;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+}
+
+.ajustes-config li {
+  width: 300px;
+  float: left;
+  margin-bottom: 10px;
+} 
+
+/* ==========================================================================
+   COLOR AZUL
+   ========================================================================== */
+.nav-user li a,
+.cerrarsesion button {
+  color: #003766;
+}
+
+
+/* ==========================================================================
+   LOGIN
+   ========================================================================== */
+
+
+
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+#footer {
+  width: 100%;
+  min-width: 1000px;
+  clear: both;
+  margin-top: 25px;
+   border-bottom: 1px solid #e6e6e6;
+  background: #999;
+}
+
+.cont-footer {
+  width: 940px;
+  height: 80px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.cont-footer .accesos {
+  float: left;
+  height: 65px;
+  padding-top: 15px;
+}
+
+.cont-footer .accesos * {
+  color: #FFF;
+  line-height: 14px;
+}
+
+.cont-footer .accesos i {
+  float: left;
+  margin-top: -1px;
+}
+
+.cont-footer .accesos .info-acceso {
+  float: left;
+  margin-left: 10px;
+}
+
+.cont-footer .accesos .first {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+.cont-footer  .first-accesos {
+  
+  padding-right: 70px;
+  width: 220px;
+  margin-right: 110px;
+}
+
+.accesos-center { width: 200px; }
+
+.cont-footer  .last-accesos {
+  
+  margin-left: 40px;
+  width: 220px;
+  padding-left: 40px;
+  float: right;
+}
+
+.cont-footer  .last-accesos  .info-acceso,
+.cont-footer  .last-accesos i {
+  float: right;
+  text-align: right;
+}
+
+.bottom-footer {
+  width: 100%;
+  height: 28px;
+  line-height: 28px;
+  background: url(../img/bg-bottom-footer.png) 0 0 repeat-x;
+  clear: both;
+  text-align: center;
+  color: #003766;
+}
+
+.bottom-footer a {
+  color: #F47920;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+/* ==========================================================================
+   FONDOS AZULES
+   ========================================================================== */
+.campana,
+.alert-content,
+html body .cont-paginator .activado a,
+html body .cont-paginator .activado span,
+.nav-titulos-content ul li.activado,
+.agente-inversion .head,
+.anuncio-login { background: #003767; }
+
+html body .bg-secundario  { background: #32434D; }
+
+
+/* ==========================================================================
+   FORM COLUMNAS
+   ========================================================================== */
+
+/*r4-18-dap-tomar-deposito-plazo-consulta.html*/
+
+#form-deposito-dap{
+  width: 900px;
+}
+.nav-titulos-content ul li.activado{
+   background: #003766 !important;
+  }
+/* ==========================================================================
+   CIRCULO DE PAGO
+   ========================================================================== */
+#circulo-pago-admin{
+  width: 780px; 
+  margin: 0 auto;
+}
+#circulo-pago-admin .circulo-label{
+  float: none;
+  display: block;
+}
+#circulo-pago-admin .filtro-calendario{
+  width: 130px;     
+}
+html #circulo-pago-admin .select-large{
+  width: 270px; 
+}
+#circulo-pago-admin div.consultar{
+  margin-left: 300px;
+
+}
+html #cuenta-euro-ultimos-movimientos .buscar-modulo input{
+  background: url(../img/lupa.png) no-repeat scroll 191px 7px transparent;
+}
+
+html .modulo-content .texto-left{
+  text-align: left;
+}
+
+html .modulo-content .texto-right{
+  text-align: right;
+}
+
+
+.nav-titulos ul li.activo{
+
+      background: #0A346F;
+    color: #fff;
+}
+.nav-titulos ul li.activo a{
+    color: #fff;
+}
+.nav-titulos ul li.activo:hover{
+
+      background: #0A346F;
+    color: #fff;
+}
+.nav-titulos ul li.activo:hover a{
+    color: #fff;
+}
+
+
+html body #importar-archivo{
+width: 620px;
+margin: 50px auto;
+
+}
+#importar-archivo > div{
+  overflow: hidden;
+}
+#importar-archivo > div > label,.descargar-excel{
+  width: 260px;
+}
+#importar-archivo .select-right{
+     width: 200px;
+}
+.mensajes{
+  display: none;
+}
+.nav-user-new{
+  min-width: 320px !important;
+}
+#mensaje{
+  background: #f8f8f8;
+  position: relative;
+}
+#mensaje .cont_condiciones {max-height:300px;overflow-y:auto;}
+#mensaje #cerrar{
+position: absolute;
+right: 0;
+top:  0;
+}
+.circulo .table-detalle td{
+  font-size: 12px;
+  font-weight: normal;
+  padding-top:10px;
+}
+.circulo .table-detalle th{
+  font-size: 14px;
+  font-weight: bold;
+}
+.modulo-content .circulo .icon-detalle{
+  float:none;
+  display: inline-block !important;
+}
+.cont-tooltips{
+  display: none!important;
+}
+.modulo-medium.circulo .modulo-left{
+  padding-left: 0px;
+    padding-right: 0px;
+}
+.input-top{
+  top : -90px;
+}
+/* ==========================================================================
+   Arreglo paginador tablas
+   ========================================================================== */
+.cont-paginator ul{
+  margin-right: 23px;
+}
+.cont-paginator ul li.first{
+  cursor: pointer;
+}
+.cont-paginator ul:before {
+  content: "";
+  width: 22px;
+  height: 28px;
+  cursor: pointer;
+  position: absolute;
+  margin-left: -22px;
+  margin-top: -1px;
+  background: url(../img/first_left_off.png) no-repeat center center;
+}
+.cont-paginator ul:after {
+  content: "";
+  width: 22px;
+  height: 28px;
+  border-left: 1px solid #ddd;
+  position: absolute;
+  margin-right: -22px;
+  margin-top: -1px;
+  cursor: pointer;
+  background: url(../img/last_right_on.png) no-repeat center center;
+}
+
+.cnomina .selectBox{
+
+  width: 200px;
+}
+.cnomina .input-xmedium  input{
+  width: 100px !important;
+}
+.cnomina .modulo-content{
+  background:   #F5F5F5;
+  width: 93% !important;
+}
+.cnomina .modulo-header.table{
+  display: inline-block;
+  float: right;
+  width: auto;
+}
+.cnomina .modulo-table{
+      display: inline-block;
+   
+    margin: 0 0 0 20px;
+    width: 95%;
+}
+.no-floats{
+  overflow: hidden;
+}
+li.flotar-left.first {
+    width: 150px;
+}
+/* Administración Usuarios / Perfiles */
+.toolptip_bt {
+  position:relative;
+  width:184px;
+  margin:0 auto;
+}
+.popover-contenido {    
+  display:none;
+  width: 230px;
+    padding: 10px;
+    background: #FFF;
+    float: left;
+    border-radius: 5px;
+    cursor: default;
+    text-align: left;
+    color: #373D45;
+  position:absolute;
+  top:40px;
+  left:-36px;
+}
+.popover-contenido:before {border-bottom:10px solid #ddd;border-left:10px solid transparent;border-right:10px solid transparent;content:' ';display:block;position:absolute;left:116px;top:-11px;}
+.popover-contenido:after {border-bottom:10px solid #fff;border-left:10px solid transparent;border-right:10px solid transparent;content:' ';display:block;position:absolute;left:116px;top:-10px;z-index:5;}
+.toolptip_bt:hover .popover-contenido {display:block;}
+
+.importante-crear-usuario {width: 274px!important;float: left!important;}
+
+.reset-pass {padding-top: 3px;}
+.reset-pass .txt-reset {float: left;width: 74%;padding-left: 4px;}
+	
+	
+
+/* ==========================================================================
+  CIRCULO DE PAGOS
+========================================================================== */
+
+/* Container CP */
+
+.container-cp .margin1bottom {
+    margin-bottom:10px;
+}
+.container-cp .detalle-cp {
+    font-size: 13px;
+    color: #414141;
+    margin-bottom: 20px;
+}
+.container-cp .nomina {
+    margin-top: 15px!important;
+}
+.container-cp .nomina-titulo {
+    display: inline-block;
+    margin-top: 5px;
+}
+.container-cp .nomina-gestionar {
+    padding-bottom: 0;
+}
+.container-cp .des-padre {
+  width: 760px;
+}
+.container-cp .des-padre .des {
+  width: 360px;
+  margin-right: 20px;
+}
+.container-cp .des-padre p.des-excel {
+  line-height: initial;
+  color: #414141;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.margin5top {
+  margin-top: 5px!important; 
+}
+
+/* Modulo CP */
+.modulo-cp {
+  padding: 30px;
+  overflow: auto;
+  font-size: 14px;   
+}
+.modulo-cp .centrado {
+  text-align: center;
+}
+.modulo-cp .span6 {
+  width: 48%;
+}
+.modulo-cp h2 {
+  font-size: 20px;
+  color: #ed7306;
+  margin-bottom: 10px!important;
+}
+.modulo-cp h3 {
+  font-size: 17px;
+  color: #717171;
+  margin-bottom: 10px;
+}
+.modulo-cp ul li {
+  font-size: 15px;
+  color: #414141;
+    list-style-type: disc;
+}
+.modulo-cp ol li {
+  font-size: 15px;
+  color: #414141;
+    list-style-type: none;
+    padding-left: 30px;
+}
+.modulo-cp .span4-cp {
+  width: 23.1%;
+  width: 22.7%\9; /* Hack IE8 */
+  margin-top: 20px;
+}
+.modulo-cp .span4-cp.first-child {
+  margin-left: 12px;
+}
+.modulo-cp .span4-cp h4 {
+  color: #ed7306;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+	
+	

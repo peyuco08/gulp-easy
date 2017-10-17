@@ -1,0 +1,282 @@
+
+.nav-user-new{
+	float: right;
+	height: 64px;
+	min-width: 330px;
+}
+
+.nav-user-new > ul > li{
+	float: left;
+}
+
+.user{
+	float: left;
+	min-width: 260px;
+	height: 64px;
+
+}
+
+.perfil-img{
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	float: left;
+	height: 40px;
+	overflow: hidden;
+	position: relative;
+	width: 40px;
+	margin: 11px 0 0 10px;
+}
+
+
+
+.perfil-img:hover > .overlay-img-user{
+	height: 100%;
+	width: 100%;
+	background: url(../img/overlay.png) no-repeat center;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-size: cover;
+}
+
+
+.user-info {
+	float: left;
+	height: 65px;
+	min-width: 155px;
+	padding: 0 10px;
+	position: relative;
+}
+
+.user-info:hover > .sub-user{
+	max-height: 300px;
+	display: block;
+}
+
+.datos-personales{
+	float: left;
+	width: 300px;
+}
+
+.datos-personales label{
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.personalizacion .datos-personales h3{
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+
+.sub-user ul{
+	overflow: hidden;
+	box-shadow:0px 2px 3px 0px #999
+}
+.name-user{
+	font-size: 13px;
+	font-weight: bold;
+	color: #003766;
+	margin:26px 0 0 0;
+	display: block;
+}
+
+.ult-conex{
+	color: #003766;
+
+}
+
+.user-info .parrafo {
+	float: left;
+	margin-left: 25px;
+}
+
+.sub-user {
+	background: #fff none repeat scroll 0 0;
+	right: 0;
+	position: absolute;
+	top: 65px;
+	min-width: 260px;
+	max-height: 0;
+	width: 260px;
+	display: none;
+}
+
+.user-info .sub-user i{
+	float: left;
+	margin-right: 10px;
+	background-image: url("../img/icon-naranjo.png");
+}
+
+.cerrarsesion {
+	margin: 25px 0;
+	position: relative;
+	text-align: center;
+	width: 60px;
+}
+
+.cerrarsesion .name {
+	display: block;
+	float: right;
+	margin-top: -3px;
+}
+
+
+
+.numero-notificacion{
+	border-radius: 100%;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 50%;
+	margin-top: -10px;
+	right: -10px;
+	background:#003767;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+.nav-drop > li {
+	overflow: hidden;
+	padding: 5px 10px;
+}
+
+.nav-drop > li:hover{
+	background: #F1F1F1;
+}
+
+.personalizacion h3{
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+
+.img-container {
+	display: table;
+	height: 280px;
+	margin: 0 auto;
+	width: 280px;
+}
+
+
+.img-container .user-img{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+.img-container .user-img img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.img-cont {
+	margin-bottom: 30px;
+	overflow: hidden;
+	padding: 0 30px;
+	width: 400px;
+	float: left;
+}
+
+.img-cont .user-img:hover > .overlay-img-user{
+	background: none;
+
+}
+
+
+.img-input{
+	cursor: pointer;
+	display: block;
+	height: 100% !important;
+	left: 0;
+	position: absolute;
+	right: 0;
+	text-indent: -9999px;
+	width: 100% !important;
+	background: none;
+	border: none;
+}
+
+
+.baja-prioridad.img-input-upload {
+	bottom: 10px;
+	left: 65px;
+	margin: 0 auto;
+	position: absolute;
+}
+
+.n-corto{
+	font-size: 12px !important;
+	margin-bottom: 26px;
+}
+
+.n-corto input{
+	margin-right: 10px;
+}
+
+.img-container .user-img .thumb-img img{
+	width: 40px;
+	height: auto;
+}
+
+.thumb-img {
+	position: absolute;
+	right: -50px;
+	top: 0;
+}
+
+.img-acciones p{
+	margin: 10px 0;
+}
+
+
+.mensajes-ico{
+	width: 30px;
+	height: 15px;
+	background: url(../img/ico-mensaje.png) no-repeat center;
+	display: block;
+	margin: 25px 20px 0 10px;
+	position: relative;
+}
+
+.mensajes-counter{
+	position: absolute;
+	top: -10px;
+	right: -15px;
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	background: #003767;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	line-height: 150%;
+}
+
+@media screen and (min-width: 1200px) {
+
+	
+
+}
+@media screen and (max-width: 1200px) {
+	.img-container{
+		width: 250px;
+	}
+
+	.img-cont {
+		margin-bottom: 30px;
+		overflow: hidden;
+		padding: 0 20px;
+		width: 340px;
+		float: left;
+	}
+	.datos-personales {
+		float: left;
+		width: 260px;
+		padding-left: 30px;
+	}
+
+}
+

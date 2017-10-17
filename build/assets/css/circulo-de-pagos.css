@@ -1,0 +1,76 @@
+/* General */
+
+body {
+	font-family: Arial;
+}
+
+.center {
+	text-align: center!important;
+}
+h2.margin1bottom{
+    margin-bottom:10px;
+}
+.detalle-cp {
+    font-size: 13px;
+    color: #414141;
+    margin-bottom: 20px;
+}
+.nomina {
+    margin-top: 15px!important;
+}
+h3.nomina-titulo {
+    display: inline-block;
+    margin-top: 5px;
+}
+h3.nomina-gestionar {
+    margin-top: -20px!important;
+}
+
+
+/* Modulo CP */
+.modulo-cp {
+	padding: 30px;
+	overflow: auto;
+	font-size: 14px;   
+}
+.modulo-cp .centrado {
+	text-align: center;
+}
+.modulo-cp .span6 {
+	width: 48%;
+}
+.modulo-cp h2 {
+	font-size: 20px;
+	color: #ed7306;
+	margin-bottom: 10px!important;
+}
+.modulo-cp h3 {
+	font-size: 17px;
+	color: #717171;
+	margin-bottom: 10px;
+}
+.modulo-cp ul li {
+	font-size: 15px;
+	color: #414141;
+    list-style-type: disc;
+}
+.modulo-cp ol li {
+	font-size: 15px;
+	color: #414141;
+    list-style-type: none;
+    padding-left: 30px;
+}
+.modulo-cp .span4-cp {
+	width: 23.1%;
+	width: 22.7%\9; /* Hack IE8 */
+	margin-top: 20px;
+}
+.modulo-cp .span4-cp.first-child {
+	margin-left: 12px;
+}
+.modulo-cp .span4-cp h4 {
+	color: #ed7306;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}

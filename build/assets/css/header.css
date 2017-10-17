@@ -1,0 +1,571 @@
+/* ==========================================================================
+   HEADER
+   ========================================================================== */
+#header { 
+	min-width: 1000px;
+	width:100%; 
+	height:65px;
+	position: relative;
+	z-index: 1011;
+}  
+
+#header .logo { 
+	margin:10px 40px 0 0; 
+	float: left;
+}
+
+#header .container { margin: 0 auto; }
+
+#header .dropdown,
+.wpthemeBanner .dropdown {
+	position: relative;
+}
+
+#header a:hover {
+	text-decoration: none;
+}
+
+/* ===================================
+   NAV PRINCIPAL
+   =================================== */
+#nav-principal {
+	display: table;
+}
+
+.nav-top { 
+	float: left;
+	height:65px;
+}
+
+#nav-principal > li {
+	float: left;	
+	display: table-row;
+}
+
+#nav-principal > li > a,
+#nav-principal .wpthemeNavList > .dropdown > a {
+	line-height: 14px;
+	height: 65px;
+	*height: 40px;
+	display: block;
+	padding: 0 20px;
+	*padding: 25px 20px 0 20px;
+	font-weight: bold;
+	display: table-cell;
+	*display: block;
+	vertical-align: middle;	
+}
+
+#nav-principal li a i {
+	/*margin-top: 25px;*/
+	float: right;
+}
+
+#nav-principal .title-top {
+	float: left;
+}
+
+#nav-principal .icon-nav-bottom { 
+	float: right;
+	margin-top: -2px;
+	position: absolute;
+	right: 10px;
+	top: 26px;
+}
+
+#btn-salir {
+	*width: 40px;
+	*margin-top: 5px;
+}
+
+#salir {
+	*margin-top: 20px;
+}
+
+.cerrar-sesion {
+	*width: 80px!important;
+	padding: 0 15px!important;
+} 
+
+/* ================
+   NAV PRINCIPAL - HOVER
+   ================ */
+#nav-principal .dropdown:hover .nav-drop,
+.nav-user .dropdown:hover .sub-user {
+	display: block;
+}
+
+#nav-principal > li:hover > a,
+#nav-principal .wpthemeNavList .dropdown:hover > a {
+	background: #FFF;
+	color: #F3791F;
+}
+
+#nav-principal > li:hover i {
+	background-image: url(../img/icon-naranjo.png);
+}
+
+/* ===================================
+   NAV PRINCIPAL - SUBMENU
+   =================================== */
+#nav-principal .nav-drop,
+#nav-principal .nav-drop a {
+	color: #32434C;
+}
+
+#nav-principal .nav-drop {
+	background: #FFF;
+	width: 260px;
+	position: absolute;
+	top: 65px;
+	left: -1px;
+	z-index: 1002;
+	display: none;
+	padding: 10px 0;
+	border: 1px solid #DDD;
+	border-top: 0 none;
+	-webkit-box-shadow: 0 5px 5px 0 #DDD;
+	-moz-box-shadow: 0 5px 5px 0 #DDD;
+	box-shadow: 0 5px 5px 0 #DDD;
+	border-collapse: separate;
+	border-radius: 0 0 5px 5px;
+	-webkit-border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+}
+
+#nav-principal .nav-drop li {
+	padding: 15px 10px;
+	margin: 0 15px;
+	float: left;
+	clear: both;
+	width: 210px;
+	background: none;
+	border: 0 none;
+}
+
+#nav-principal .nav-drop li a {
+	padding: 0;
+	margin: 0;
+	width: 210px;
+	float: left;
+	clear: both;
+	line-height: 14px;
+}
+
+#nav-principal .nav-drop li a i {
+	margin-top: 0;
+	float: left;
+	margin-right: 10px;
+}
+
+#header .nav-drop .titulo {
+	float: left;
+	font-weight: bold;
+	color: #373D45;
+}
+
+
+
+/* ================
+   NAV PRINCIPAL - SUBMENU - NAV CON TITULO + PARRAFO
+   ================ */
+
+#nav-principal .parrafo {  
+	font-weight: normal;
+	line-height: 14px;
+	float: left;
+	clear: both;
+	margin-top: 4px;
+	color: #A3A19D;	
+	width: 170px;
+	font-weight: normal!important;
+}
+
+#nav-principal .nav-drop i + .titulo + .parrafo {  
+	width: 185px;
+	margin-left: 25px	
+}
+
+
+/* ================
+   NAV PRINCIPAL - SUBMENU - HOVER
+   ================ */
+#nav-principal .nav-drop li:hover,
+.nav-user li:hover {
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+#nav-principal .nav-drop li:hover a {
+	text-decoration: none;
+}
+
+#nav-principal .nav-drop i {
+	background-image: url(../img/icon-naranjo.png);
+}
+
+
+/* ==========================================================================
+   NAV USER
+   ========================================================================== */
+.nav-user {
+	float: right;
+}
+
+.nav-user > ul {
+	margin-top: 24px;
+}
+
+/*.nav-user li + li {
+	margin-left: 10px;
+	padding-left: 10px;
+}*/
+
+.nav-user .name,
+.nav-user li,
+.nav-user i {
+	float: left;
+}
+
+.nav-user > ul > li {
+	padding: 2px 10px;
+}
+
+
+.nav-user > ul > li a {
+	font-size: 11px;
+	line-height: 15px;
+}
+
+.nav-user .mensaje {
+	float: left;
+	min-width: 21px;
+	height: 16px;
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0 0;
+	text-align: center;
+	position: relative;
+	top: -10px;
+	left: 5px;
+	z-index: 1002;
+	color: #FFF;
+	border-radius: 10px;
+}
+
+
+/* ===================================
+   NAV USER - SUBMENU DE USER
+   =================================== */
+.nav-user .sub-user {
+	position: absolute;
+	left: -110px;
+	top: 15px;
+	width: 250px;
+	display: none;
+}
+
+.nav-user .nav-drop {
+	width: 250px;
+	padding: 10px 0;
+	float: left;
+	background: #FFF;
+	border-radius: 0 0 5px 5px;
+	-webkit-border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	border: 1px solid #EEE;
+	border-top: 0 none;
+	-webkit-box-shadow: 0 5px 5px 0 #DDD;
+	-moz-box-shadow: 0 5px 5px 0 #DDD;
+	box-shadow: 0 5px 5px 0 #DDD;
+}
+
+.dropdown .arrow { 
+	width:11px;
+	height:7px;
+	display: block;
+	background:url(../img/dropdown-row.png) 0 0 no-repeat!important;
+}
+
+.nav-user .usuario .arrow,
+.nav-user .notificacion .arrow {
+	margin-top: 20px;
+}
+
+#salir .arrow {
+	margin-top: 11px;
+}
+
+.nav-user .usuario .arrow {
+	margin-left: 122px;
+}
+
+.nav-user .notificacion .arrow {
+	margin-left: 141px;
+}
+
+.nav-user .nav-drop li {
+	padding: 15px 10px;
+	margin: 0 15px;
+	float: left;
+	clear: both;
+	width: 200px;
+}
+
+.nav-user .nav-drop li,
+.nav-user .nav-drop li:hover {
+	border: 0 none;
+}
+
+
+.nav-user .nav-drop a {
+	color: #373D45;
+	display: block;
+	overflow: hidden;
+	font-size: 12px;
+}
+
+.nav-user .nav-drop a:hover {
+	*text-decoration: none;
+}
+
+.nav-user .nav-drop a i,
+.nav-user .nav-drop .titulo,
+.nav-user .nav-drop .parrafo {
+	float: left;
+}
+
+.nav-user .nav-drop i + .titulo + .parrafo {
+	width: 175px;
+	margin-left: 25px;
+}
+
+.nav-user .nav-drop a i {
+	margin-right: 10px;
+	background-image: url(../img/icon-naranjo.png)!important;
+}
+
+.nav-user .usuario .name {
+	margin: 2px 0 0 10px;
+}
+
+
+.sub-user .ver-todo a {
+	padding-left: 25px;
+}
+
+#header .ver-todo {
+	border-top: 1px solid #DDD;
+	font-weight: bold;
+}
+
+#header .ver-todo:hover {
+	text-decoration: underline;
+}
+
+#header .ver-todo,
+#header .ver-todo:hover {
+	border-radius: 0!important;
+	-webkit-border-radius: 0!important;
+	-moz-border-radius: 0!important;
+}
+
+#header .nav-user a:hover {
+	text-decoration: none;
+}
+
+
+/*
+.nav-user span.mensaje {
+    background: #003766;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    line-height: 10px;
+    margin: -8px -8px 0 0;
+    top: -11px;
+    padding: 5px;
+    text-align: center;
+    font-size: 10px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1007;
+}
+
+
+.nav-user li {
+	float: left;
+}
+
+.nav-user li a:hover {
+	text-decoration: none;
+}
+
+.nav-user > ul > li {
+	margin-top: 25px;
+}
+
+.nav-user > ul > li + li {
+	margin-left: 20px;
+}
+
+.nav-user > ul > li > a {
+	color: #FFF;
+	font-size: 11px;
+	padding: 0;
+}
+
+.nav-user li img {
+	border: 1px solid #FFF;
+	margin-top: -5px;
+}
+
+.nav-user > ul > li [class*="icon-"] { 
+	margin-top:-2px; 
+}
+*/
+
+/* ==========================================================================
+   SALIR
+   ========================================================================== */
+.cerrarsesion {
+	position: relative;
+}
+
+.cerrarsesion i {
+	margin-top: -3px;
+}
+
+.cerrarsesion .name {
+	margin-top: -5px;
+}
+
+.cerrarsesion button {
+	background: none;
+	border: 0 none;
+	font-size: 11px;
+	padding: 0;
+	margin: 0;
+}
+
+#salir p {
+	float: left;
+	line-height: 29px;
+}
+
+#salir a {
+	float: right;
+	line-height: 24px;
+	color: #373D45;
+}
+
+.cont-drop {
+	position: absolute;
+	right: 0;	
+	width: 285px;
+}
+
+.drop {
+	background: #fff;
+	padding: 10px;
+	clear: both;
+	position: relative;
+	z-index: 1002;
+	overflow: hidden;
+}
+
+.cont-drop .arrow { 
+	width: 11px;
+	height: 7px;
+	background: url(../img/dropdown-row.png) 0 0 no-repeat;
+	display: inline-block;
+	float: right;
+	margin-right: 10px;
+	position: relative;
+	bottom: -1px;
+	z-index: 1005;
+}
+
+
+/*.nav-top .drop-left ul { left:0; }
+
+#nav-principal .dropdown .nav-drop li {
+	padding: 0;
+	display: block;
+	width: 100%;
+}
+
+#nav-principal .dropdown .nav-drop li a {
+	line-height: 14px;
+	color: #32434C;
+	padding:0;
+	display: block;
+	overflow: hidden;
+	padding:20px 15px;
+}
+
+#nav-principal .nav-drop .titulo {
+	font-size: 14px;
+	float: left;
+}
+
+#nav-principal .nav-drop [class*="icon-"] {
+	margin-top:0;
+}
+
+#header .agregar span {
+	margin-top: 3px;
+}
+
+#header .agregar a i {
+	margin: 0 5px 0 0;
+}
+
+#header .dropdown .nav-drop .agregar a {
+	color: #A3A29D;
+}
+
+.nav-top > ul > li { 
+	float:left; 
+	background:url(../img/bg-header-li.png) 0 0 repeat-y;
+	padding:0 20px;
+	position:relative;
+}
+
+.nav-top ul > li > a { 
+	color:#FFF;
+	line-height:65px;
+	display:block;
+	padding:0;
+	font-weight: bold;
+}
+
+.nav-top > ul > li i {
+	margin-top: 25px;
+}
+
+#header .nav-top ul li:hover {
+	box-shadow: inset 0 0 5px rgba(0,0,0,.4);
+}
+
+#header .nav-top > ul > li:hover > a {
+	color: #FFF;
+}
+
+#header .nav-top ul li li:hover {
+	box-shadow: none;
+}
+
+.transacciones ul .titulo,
+.transacciones ul .parrafo {
+	width: 200px;
+}
+
+.transacciones ul i {
+	float: right;
+}
+*/
+

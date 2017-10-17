@@ -1,0 +1,135 @@
+
+.aviso-simuladores {
+	margin: 1%;
+    padding: 5px 0;
+    text-align: center;
+    width: 98%;
+	background: #F3F3F1;
+}
+
+#simulador-credito .bloque {
+    margin: 10px 0 0;
+    overflow: hidden;
+    padding-left: 10px;
+} 
+#simulador-credito h2 {
+	color:#F47920;
+}
+#simulador-credito .bloque label { 
+	float: left;
+	width: 45%;
+}
+
+#simulador-credito .datos-corto .bloque label { 
+	width: 35%;
+}
+
+#simulador-credito .bloque-campos textarea {
+	width: 196px;
+}
+
+.bloque .bloque-campos {
+	float: right;
+}
+
+.datos-corto .bloque .bloque-campos {
+	width: 65%;
+}
+
+.simulador-contenido .datos-corto .bloque-campos input[type="text"],
+.simulador-contenido .datos-corto .bloque-campos textarea {
+	width: 90%!important;
+	float: right;
+}
+
+
+.simulador-contenido .modulo-right {
+	width: 45%!important;
+	float: right;
+}
+.bloque-campos .selectBox { 
+	float: left;
+	width: 208px;
+}
+.datos .bloque-campos input {
+	float: left;
+	margin-right: 10px;
+}
+.simulador-contenido .datos {
+	border-top: 1px solid #ddd;
+    margin: 10px 0;
+    padding-top: 20px;
+}
+.simulador-contenido .datos-corto {
+    float: left;
+    margin: 10px 0;
+    width: 49%;
+}
+.datos-corto .borrar,
+.datos .borrar {
+	text-decoration: underline;
+}
+.simulador-contenido .botones {
+	float: right;
+	overflow: hidden;
+	margin-right: 20px;
+}
+.frase-legal {
+	margin: 20px 0;
+	font-size: 11px;
+	line-height: 14px;
+	clear: both;
+}
+.simulador-contenido .botones .aceptar {
+	margin-left: 20px; 
+	float: left;
+}
+.simulador-contenido .botones .borrar {
+	float: left;
+	text-decoration: underline;
+}
+.frase-legal ul li {
+	margin: 0;
+}
+.table-simulador .THead th { padding-top: 10px; }
+.table-simulador .TBody td { padding-bottom: 10px; }
+.table-simulador th, .table-simulador td { padding: 2px 20px}
+
+.table-simulador .cae {
+	font-size: 14px;
+}
+.table-simulador .cae div {
+	display: none;
+    left: 130px;
+    position: absolute;
+    top: 330px;
+}
+.table-simulador .cae:hover div {
+	font-size: 11px;
+	line-height:12px;
+	width: 300px;
+	display: block;
+	background: url(../img/bg-popover.jpg) repeat-x 0 0 #E2E3E5;
+	z-index: 2000;
+}
+.table-simulador .valor {
+	color: #fff;
+	background: #F47920;
+}
+
+
+#simulador1 .bloque {
+	width: 450px;
+	margin: 0 auto;
+}
+
+#simulador-comparacion .grafico {
+	float: left;
+	width: 49%;
+	text-align: center;
+}
+
+#simulador-comparacion .datos-apv {
+	float: right;
+	width: 49%;
+}

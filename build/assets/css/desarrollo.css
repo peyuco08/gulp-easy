@@ -1,0 +1,70 @@
+/* ==========================================================================
+  CIRCULO DE PAGOS
+  ========================================================================== */
+
+/* Container CP */
+
+.container-cp .margin1bottom {margin-bottom:10px;}
+.container-cp .detalle-cp {font-size: 13px;color: #414141;margin-bottom: 20px;}
+.container-cp .nomina { margin-top: 15px!important; }
+.container-cp .nomina-titulo { display: inline-block; margin-top: 5px; }
+.container-cp .nomina-gestionar { padding-bottom: 0; }
+.container-cp .des-padre { width: 760px; }
+.container-cp .des-padre .des { width: 360px; margin-right: 20px; }
+@media (max-width: 1200px) {
+  .container-cp .des-padre .des {
+    width: 300px;
+  }
+}
+.container-cp .des-padre p.des-excel { line-height: initial; color: #414141; font-size: 13px; margin-top: 10px; }
+.container-cp .margin5top{ margin-top: 5px!important; }
+
+/* Modulo CP */
+
+.modulo-cp { padding: 30px; overflow: auto; font-size: 14px; }
+.modulo-cp .centrado { text-align: center; }  
+.modulo-cp .izquierdo { text-align: left; margin-left: 70px; }  
+.modulo-cp .span6 { width: 48%; }
+.modulo-cp h2 { font-size: 20px; color: #ed7306; margin-bottom: 10px!important; }
+.modulo-cp h3 { font-size: 17px; color: #717171; margin-bottom: 10px; }
+.modulo-cp ul li { font-size: 15px; color: #414141; list-style-type: disc; }
+.modulo-cp ol li { font-size: 15px; color: #414141; list-style-type: none; padding-left: 30px; }
+.modulo-cp .span4-cp { width: 23.1%; width: 22.7%\9; /* Hack IE8 */ margin-top: 20px; }
+.modulo-cp .span4-cp.first-child { margin-left: 22px; }
+.modulo-cp .span4-cp h4 { color: #ed7306; font-size: 14px; font-weight: bold; margin-top: 10px; margin-left: 50px; }
+.modulo-cp .span4-cp p { margin-left: 50px; }
+.modulo-cp .cp-icos { width: 60px; height: 60px; margin-left: 50px; }
+.modulo-cp .cp-nombre { background: url('../img/nombre.png') 0px 0px no-repeat; }
+.modulo-cp .cp-telefono { background: url('../img/telefono.png') 0px 0px no-repeat; }
+.modulo-cp .cp-email { background: url('../img/email.png') 0px 0px no-repeat; }
+.modulo-cp .cp-sucursal { background: url('../img/sucursal.png') 0px 0px no-repeat; }
+
+/* Modulo CP Ingresar Nomina */
+.importar-archivo{ width: 620px; margin: 50px auto; }
+.importar-archivo > div{ overflow: hidden; }
+.importar-archivo > div > label,.descargar-excel{ /*width: 260px;*/ margin-right: 40px; width: 330px; }
+.importar-archivo .select-right{ width: 200px; }
+/* HACKS produccion CP */
+.flotar-left.aqui { width: 234px !important; }
+
+/* ==========================================================================
+  Modificaciones en Landing CP 04-05-2017
+========================================================================== */
+
+.modulo-cp .span2-cp { width: 43.1%; width: 42.7%\9; /* Hack IE8 */ margin-top: 20px; }
+.modulo-cp .span2-cp.first-child { margin-left: 22px; }
+.modulo-cp .span2-cp h4 { color: #ed7306; font-size: 14px; font-weight: bold; margin-top: 10px; margin-left: 50px; }
+.modulo-cp .span2-cp p { margin-left: 50px; }
+.modulo-cp .margin2top { margin-top: 10px; }
+.modulo-cp .bor-der { border-right: solid 1px #e3e3e3; margin-top: 18px; }
+.modulo-cp label { color: #717171; margin-bottom: 5px; font-weight: bold; width: 160px; display: inline-block; text-align: right; padding-right: 10px; }  
+.modulo-cp input[type="text"] { margin-top: 8px; }
+.modulo-cp ::-webkit-input-placeholder { /* Chrome/Opera/Safari */ color: #adaaad; font-style: italic; }
+.modulo-cp ::-moz-placeholder { /* Firefox 19+ */ color: #adaaad; font-style: italic; }
+.modulo-cp :-ms-input-placeholder { /* IE 10+ */ color: #adaaad; font-style: italic;}
+.modulo-cp :-moz-placeholder { /* Firefox 18- */ color: #adaaad; font-style: italic; }
+.modulo-cp .separar.input-top { margin-left: 175px; color: #999; font-size: 12px; margin-top: 0; float: inherit; width: auto; }
+.modulo-cp .cp-btn-enviar { margin-right: 83px; overflow: hidden;}
+.modulo-cp .accion.disabled { color: #797777!important; display: block; margin: 0 auto; cursor: pointer; }
+.modulo-cp .alto-contrato { height: 360px; }
+.modulo-cp .corte { padding-top:10px; width: 940px; }

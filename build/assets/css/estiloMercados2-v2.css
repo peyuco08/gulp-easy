@@ -1,0 +1,926 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.contenedor-principal {
+	font-family: Arial;
+	width:1100px;
+	margin:0 auto;
+}
+
+.contenedor-arriba{
+	width:100%;
+	height:45px;
+	background-color:#ffffff;
+	border-bottom:0px solid #0074B8;
+	margin-top:5px;
+}
+
+.contenedor-menu{
+	
+	font-size:12px;
+	color:#888888;
+	
+}
+
+.contenedor-central{
+	background-color:#ffffff;
+	width:100%;
+}
+
+.contenedor-izquierdo{
+	background-color:#ffffff;
+    width:618px;
+	float:left;
+}
+
+.contenedor-grafico{
+	background-color:#fff;
+	padding-left:8px;
+	float:left;
+	height:auto;
+	margin-bottom:5px;
+}
+
+.contenedor-derecho{
+	background-color:#FBFBFB;
+	float:right;
+	width:470px;
+	border:1px solid #efefef;
+}
+
+#contenedor-tabla-detalle{
+	background-color:#fff;
+}
+
+#contenedor-tabla-monedas{
+	background-color:#fff;
+}
+#contenedor-tabla-ffmm{
+	background-color:#fff;
+}
+
+
+.contenedor-medio{
+	background-color:#00ffff;
+	width:100%;
+	clear:both;
+	float:left;
+}
+
+.contenedor-abajo{
+	width:100%;
+	clear:both;
+	float:left;
+	color: #888888;
+}
+
+.contenedor-cierre-mercado{
+	float:left;
+	width: 584px;
+	border-top: solid 1px #efefef;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+
+.contenedor-menu-pestanhas{
+}
+
+/*INDICADOR CIERRE DE MERCADO*/
+
+.mercado-cerrado{
+	color:#ff0000;
+}
+
+.mercado_abierto{
+	color:#61A800;
+}
+
+/* GRAFICO */
+
+.tabla-grafico{
+	width:auto;
+	margin-top:3px;
+	margin-bottom:2px;
+	margin-left:0px;
+	
+}
+
+.grafico-dato1{
+	font-size:20px;
+	color: #FF7900;
+	padding-right:8px;
+}
+
+.grafico-dato2{
+	font-size:20px;
+	color: #333;
+	padding-right:8px;
+}
+
+.grafico-dato3{
+	font-size:16px;
+	color:#0073B7;
+	font-weight:bolder;
+	padding-right:8px;
+}
+
+.grafico-dato4{
+	font-size:16px;
+	color:#0073B7;
+	font-weight:bolder;
+}
+
+.grafico{
+}
+
+/* NOTICIAS */
+
+.tabla-noticias{
+	border:1px solid #efefef;
+	background-color:#fbfbfb;
+	width:617px;
+	height:40px;
+	font-size:12px;
+	margin-top:15px;
+	margin-bottom:15px;
+	}
+
+.columna1-noticias{
+	color:#666666;
+	vertical-align:middle;
+	font-weight:bolder;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.columna2-noticias{
+	padding-left:5px;
+	padding-right:5px;
+	vertical-align:middle;
+}
+
+.columna3-noticias{
+	padding-left:5px;
+	padding-right:5px;
+	vertical-align:middle;
+	color:#0074B8;
+	width:100%;
+}
+
+.contenedor-cuerpo-noticia {
+	height:460px;
+	overflow:auto;
+	width:600px;
+}
+
+.contenedor-cuerpo-noticia h3{
+	font-family:'times new roman',Arial;
+	font-size:26px;
+	color:#0074B8;
+	font-weight:normal;
+	margin-bottom:12px;
+	border-bottom:1px solid #cccccc;
+	padding:3px 10px 8px 10px;
+}
+
+.contenedor-noticias a{
+	color:#0074B8;
+	text-decoration:none;
+	
+}
+
+.contenedor-cuerpo-noticia p{
+	font-family:arial;
+	font-size:14px;
+	line-height:22px;
+	text-align:left;
+	padding:3px 10px 0px 10px;
+}
+
+.contenedor-noticias a:hover{
+	text-decoration:underline;
+	
+}
+#titlo-noticias-despliegue{
+	text-decoration:underline;
+	color:#0074B8;
+	cursor:pointer;
+}
+
+#titlo-noticias-despliegue:hover{
+	text-decoration:underline;
+
+}
+
+.noticias-desplegada-cierre {
+font-size:11px;
+color:#fff;
+cursor:pointer;
+font-weight:bold;
+padding-right:11px;
+padding-bottom:15px;
+text-align:right;
+}
+
+.noticias-desplegada-cierre:hover{
+	text-decoration:underline;
+}
+
+.titulo-noticias-desplegada{
+	font-family:times,arial;
+	float:left;
+	width:45%;
+	font-size:26px;
+	font-weight:normal;
+	color:#fff;
+	padding-left:5px;
+}
+
+#cuerpo-noticias-despliegue {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+-moz-box-shadow:0 0 10px #ccc;
+
+-webkit-background-clip:border;
+-webkit-background-inline-policy:continuous;
+-webkit-background-origin:padding;
+-webkit-box-shadow:0 0 10px #ccc;
+
+
+background:#444 none repeat scroll 0 0;
+border:0px solid #efefef;
+padding-bottom:30px;
+padding-top:20px;
+padding-left:30px;
+position:absolute;
+top:5px;
+width:550px;
+z-index:8;
+left:-600px;
+height:auto;
+}
+
+#cuerpo-noticias-despliegue a{
+	line-height:25px;
+	text-decoration:none;
+	color:#efefef;
+	font-weight:normal;
+}
+
+#cuerpo-noticias-despliegue a:hover{
+	text-decoration:none;
+	color:#fff;
+	font-weight:bold;
+}
+
+#cuerpo-noticias-despliegue li{
+	margin-right:25px;
+	border-bottom:1px solid #555;
+	padding-left:5px;
+}
+
+.contendor-noticias-principal{
+	display:table;
+	clear:both;
+	height:25px;
+	
+}
+/* IGPA */
+
+.contenedor-igpa{
+	float:left;
+	margin-top:10px;
+}
+
+.contenedor-inter10{
+	float:left;
+	margin-top:10px;
+}
+
+.contenedor-ipsa{
+	float:left;
+	margin-top:10px;
+}
+
+.tabla-igpa{
+	border-top: 1px solid #efefef;
+	width: 145px;
+	padding: 10px 5px 10px;
+	border-bottom: 1px solid #efefef;
+}
+
+.igpa-dato1{
+	font-size:16px;
+	color: #FF7900;
+	padding-left:8px;
+	padding-top:5px;
+	cursor:pointer;
+}
+
+.igpa-dato2{
+	font-size:27px;
+	color: #333;
+	text-align:left;
+	padding-left:8px;
+}
+
+.igpa-dato3{
+	font-size:16px;
+	font-weight:bolder;
+	color:#0073B7;
+	text-align:left;
+	padding-left:8px;
+	padding-bottom:5px;
+}
+
+.igpa-dato4{
+	font-size:16px;
+	font-weight:bolder;
+	color:#0073B7;
+	text-align:right;
+	padding-right:8px;
+	padding-bottom:5px;
+}
+
+.tabla-ipsa{
+	border-top: 1px solid #efefef;
+	width: 296px;
+	padding: 10px;
+	border-bottom: 1px solid #efefef;
+}
+
+.igpa-dato5{
+	width:140px;
+	font-size:11px;
+	color:#888888;
+	text-align:left;
+	vertical-align: middle;
+	padding-left:15px;
+	padding-bottom:5px;
+}
+
+.bolsaIndiceDown{color:red;font-size:16px;font-weight: lighter;padding-left:6px;}
+
+.bolsaIndiceUp{
+	
+color:#61A800;
+font-size:16px;
+font-weight:bold;
+padding-left:6px;
+	
+}
+
+
+
+.flashUp{
+	background:#61A800 !important;
+	color:#FFF !important;
+}
+
+.flashDown{
+	background:#F00 !important;
+	color:#FFF !important;
+}
+
+/* TABLA MERCADO */
+
+.tabla-mercado{
+	font-family:Arial;
+	font-size:11px;
+	margin:3px;
+}
+
+.tabla-mercado tr{
+}
+
+.tabla-mercado th{
+	background-color:#EFEFEF;
+	color:#666666;
+	font-size:11px;
+	font-weight:bolder;
+	padding:3px;
+}
+
+.tabla-mercado thead{
+}
+
+/* TABLAS MERCADO (ABAJO) */
+
+.FilaComunOver{
+	background-color:#EFEFEF;
+
+
+	
+}
+
+.tabla-mercado-abajo{
+	float:left;
+	font-size:11px;
+	width:187px;
+	margin-right:2px;
+}
+
+.tabla-mercado-abajo th{
+	padding: 3px 3px 1px 3px;
+	color: #333;
+	font-size:11px;
+	font-weight:bolder;
+	height: 30px;
+}
+
+.tabla-mercado-abajo td{
+	padding: 1px 2px 0px 2px;
+	border-bottom: 1px solid #f1f1f1;
+}
+
+/* TABLA DETALLE MERCADO (DERECHA) */
+
+.tabla-detalle-mercado{
+	font-size:11px;
+	width:100%;
+	border:0px solid #efefef;
+	padding: 5px;
+}
+
+.tabla-detalle-mercado th{
+	background-color:#ffffff;
+	color: #333;
+	font-size:11px;
+	font-weight:bolder;
+	padding: 10px 2px 10px;
+	border-bottom:0px solid #efefef;
+	/* background-color:#fbfbfb; */
+}
+
+.tabla-detalle-mercado td{
+	padding: 1px 2px 0px 2px;
+	border-bottom: solid 1px #f1f1f1;
+}
+
+.tabla-detalle-ffmm{
+	font-size:11px;
+	width:100%;
+	border:0px solid #efefef;
+}
+
+.tabla-detalle-ffmm th{
+	background-color:#ffffff;
+	color:#666666;
+	font-size:11px;
+	font-weight:bolder;
+	padding:3px 2px 5px;
+	border-bottom:0px solid #efefef;
+	background-color:#fbfbfb;
+}
+
+.tabla-detalle-ffmm td{
+	padding:0px 2px;
+	border-bottom:0px solid #f1f1f1;
+}
+
+
+.contenedor-tabla-ffmm{
+	height:598px;
+	overflow:auto;
+	
+}
+
+.borde-trio{
+	border-bottom:solid 1px #EFEFEF !important;
+}
+
+.flash-verde{
+	background-color:#0C0;
+	color:#FFF !important;
+}
+
+.flash-rojo{
+	background-color:#F00;
+	color:#FFF !important;
+}
+
+.flash-amarillo{
+	background-color:#FFFF66;
+	color:#666666 !important;
+}
+
+
+
+
+
+/* TABLAS RESUMEN ABAJO */
+.tabla-mercado2-abajo{
+	float:left;
+	font-family:arial,tahoma,arial;
+	font-size:11px;
+	background-color:#fff;
+	border-bottom:1px solid #999;
+}
+
+.tabla-mercado2-abajo th{
+	border-bottom:1px solid #999;
+	background-color:#fff;
+	color:#666;
+	font-family:arial,verdana;
+	font-size:11px;
+	font-weight:bolder;
+	vertical-align:bottom;
+	padding: 4px 3px 6px 5px;
+	height:30px;
+	}
+
+.tabla-mercado2-abajo td{
+	padding:1px 5px 0px 5px;
+	border-bottom:0px solid #f1f1f1;
+}
+
+/* FIN NO SE */
+
+.logotipo{
+	float:left;
+}
+
+.titulo{
+	font-family:arial;
+	font-size:18px;
+	color:white;
+	height:30px;
+}
+
+.titulo-pestanha a{/* -webkit-border-radius: 4px 4px 0px 0px; */-moz-border-radius: 4px 4px 0px 0px;float:right;font-family:arial;font-size:13px;font-weight: lighter;height: 23px;margin: 10px 0px 0;text-align:center;text-decoration:none;width:140px;behavior: url(PIE.htc);}
+
+.titulo_off a{background: linear-gradient(to bottom, rgba(247,247,247,1) 0%, rgba(230,225,230,1) 50%, rgba(217,214,217,1) 51%, rgba(227,227,227,1) 100%);border: solid 1px #ddd;color: #333;cursor:pointer;padding-top: 7px;}
+
+.titulo_off a:hover{background-color:#E5E5E5;color:#0074B8;cursor:pointer;height: 23px;padding-top: 7px;margin-top: 10px;}
+
+.titulo_on a {background: linear-gradient(to bottom, rgba(230,230,230,1) 0%, rgba(209,207,209,1) 50%, rgba(189,189,189,1) 51%, rgba(179,175,179,1) 100%);color: #333;cursor:default;height: 23px;padding-top: 7px;border: solid 1px #ddd;}
+
+.titulo1{
+	text-align:left;
+	width:73px;
+}
+
+.titulo1-monedas{
+	text-align:left;
+	width:auto;
+}
+
+.titulo2{
+	text-align:right;
+	width:auto;
+}
+
+.titulo3{
+	text-align:right;
+	width:auto;
+}
+
+
+.columna1{
+	width:auto;
+	color: #333;
+	cursor:pointer;
+}
+
+.columna2{
+	color: #aaa;
+	text-align:right;
+	width:auto;
+}
+
+.columna3{
+	color:#666;
+	text-align:right;
+	width:auto;
+}
+
+.columaFFMM1{
+	width:50%;
+	color:#0073B7;
+}
+
+.columaFFMM2{
+	color:#666;
+	text-align:right;
+	width:auto;
+	
+}
+
+.columaFFMM3{
+	color:#0074B8;
+	text-align:right;
+	width:auto;
+}
+
+.boton{
+	color:white;
+	float:left;
+	padding:4px 9px 5px 7px;
+}
+
+.sube-verde{
+	color:#61A800;
+}
+
+.baja-rojo{
+	color:#F00;
+}
+
+.enlace a{
+	color:white;
+	text-decoration:none;
+}
+
+.enlace a:hover{
+	text-decoration:underline;
+}
+
+/*RELOJ*/
+
+.contenedor-reloj{
+	float:left;
+}
+
+/*Bolqueo de AJAX*/
+
+#contenedor-bloqueo{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#FFF; 
+	background:#444444 none repeat scroll 0 0;
+	
+	
+}
+
+#contenedor-bloqueo p{
+	padding:7px;
+	color:white; 
+}
+
+#contenedor-bloqueo input{
+	margin-bottom:7px;
+}
+
+/*PAGINA ERROR*/
+
+.contendor-menu{
+}
+
+.contendor-generico{
+	border:1px solid #0074B8;
+font-size:14px;
+padding:10px;
+text-align:center;
+}
+
+.contenedor-error{
+
+}
+
+.contenedor-error p{
+	color:#666666;
+}
+
+.contenedor-error a{
+		color:#0074B8;
+text-decoration:none;
+}
+
+/*TABLA MONEDA background:	url("../images/flechaabajo2.png") no-repeat scroll 94% 50% transparent ;*/
+
+.dato-baja{
+vertical-align:middle;
+}
+
+.dato-sube{
+vertical-align:middle;
+}
+.dato-mantiene{
+vertical-align:middle;
+}
+.datos-moneda{
+	float:right;
+}
+	.dato-baja .datos-moneda{
+		color:red;
+	}
+	.dato-sube .datos-moneda{
+		color:#61A800;
+	}
+
+.espacio-flecha{
+	background-repeat:no-repeat;
+	float:right;
+	height:14px;
+	width:14px;
+}
+	.dato-sube .espacio-flecha{
+		background-image:url("../images/flechaarriba2.png") !important;
+		background-image: none;
+		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='images/flechaarriba2.png') !important;
+		}
+	.dato-baja .espacio-flecha{
+		background-image:url("../images/flechaabajo2.png") !important;
+		background-image: none;
+		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='images/flechaabajo2.png') !important;
+		}
+	.dato-mantiene .espacio-flecha{
+		background-image:url("../images/flechatranspng.png") !important;
+		background-image: none;
+		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='images/flechatranspng.png') !important;
+		}
+	
+	
+	
+.fila-moneda td{
+	padding: 1px 2px;
+}
+
+.columna-moneda1{
+	width:auto;
+	color: #333;
+}
+
+
+.flash-gris{
+	background-color:#E5E5E5;
+}
+
+/* Link's  Historicos*/
+
+.contenedor-panel-grafico
+{
+	background-color:#fff;
+	width:auto;
+	padding-left:8px;
+	float:left;
+	border:1px solid #efefef;
+	height:auto;
+	margin-bottom:5px;
+
+
+}
+
+
+/*
+
+#historico{
+	text-decoration:underline;
+	color:#0074B8;
+	cursor:pointer;
+}
+
+#historico:hover{
+	text-decoration:underline;
+
+}
+
+
+*/
+
+.historico{
+	font-size:12px;
+	color:#0074B8;
+	padding-right:40px;
+	font-weight:bolder;
+}
+
+
+#link-historico2 a
+{
+	text-decoration:underline;
+	color:#0074B8;
+	cursor:pointer;
+}
+
+
+#link-historico2  a:hover
+{
+	text-decoration:underline;
+}
+
+
+
+.table-panel 
+{
+	background-color:#ffffff;
+	float:left;
+	border:1px solid #efefef;	
+
+     text-decoration   :underline;
+	color:#0074B8;
+	cursor:pointer;
+     
+	
+}
+
+/*  Contenedor de links Historicos links */
+.contenedor-links-historicos
+{
+	/*
+	background-color:#fff;
+ 	padding-left:0px;
+	border:0px solid #efefef;
+	behavior: url(PIE.htc);
+	*/
+	
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	float:left;
+	height:auto;
+	width:500px;
+}
+
+.nota_monedas{margin: 27px 5px 10px 5px;/* font-size:11px; */color:#999;}
+
+/*CARRUSEL*/
+
+.contedor-abajo{}
+
+.carrusel-button-next{}
+
+.carrusel-button-prev{}
+
+.contenedor-carrusel{}
+
+.bx_wrap a.prev{
+	float:left;
+	margin-top:25px;
+	margin-right:1px;
+	}
+.bx_wrap a.next{
+	float:right;
+	
+	margin-top:25px}
+
+.carrusel-belt{}
+
+.bx_container{margin:0 auto;}
+
+.body-solo-monedas {
+	padding:0;
+}
+
+.contenedor-principal-solo-monedas {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.contenedor-derecho-solo-monedas {
+	float: left; 
+	height: 500px;
+	padding: 0;
+	margin: 0;
+}
+div.contenedor-centrado{    background: white;
+  
+    height: 572px;
+    margin: 3px auto 0;
+    width: 98%;}
+
+#boton-detalle > a { margin-right: 0px; }
+ 
+#boton-monedas > a {margin-right: 188px;margin-left: 0px;}
+
+.columaD2, .columaD3 { color: #aaa;}
+
+.tabla-detalle-mercado tr:last-child td { border:none; }
+.carrusel-belt{}
+
+.bx_container{margin:0 auto;}
+
+.body-solo-monedas {
+	padding:0;
+}
+
+.contenedor-principal-solo-monedas {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.contenedor-derecho-solo-monedas {
+	float: left; 
+	height: 500px;
+	padding: 0;
+	margin: 0;
+}
+div.contenedor-centrado{    background: white;
+  
+    height: 572px;
+    margin: 3px auto 0;
+    width: 98%;}
+
+#boton-bienvenido a { display: none;}
+
+
+.jcarousel-prev-horizontal:after {content: " anterior";color: #333;font-size: 11px;font-weight: bold;}
+
+.jcarousel-next-horizontal:after {content: " siguiente";color: #333;font-size: 11px;font-weight: bold;}
+
+

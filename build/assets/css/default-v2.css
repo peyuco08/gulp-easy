@@ -1,0 +1,310 @@
+
+body {
+	margin-top: 5px;
+	/* background-color: #0072B6; */
+	background-color: #FFFFFF;
+	padding-top: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 0px;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+}
+h1 {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #C6E0FB;
+	text-decoration: none;
+}
+p {
+	FONT-SIZE: 16px;
+	COLOR:#555555; /* */
+	FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif;
+	TEXT-DECORATION: none
+}
+a {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #003399;
+	text-decoration: none;
+}
+
+/*
+	Su contenido debe ser interpretado como destacado. El
+	principal dentro de la página
+*/
+#container {
+	margin: 0 auto;
+	padding: 0;
+	width: 955px;
+}
+
+/* Estilo de la cabecera*/
+	#header {
+		text-align: center;
+		width: 100%;
+		height: 55px;
+	}
+
+		#header-logo {
+			/*background: url(img/logo_corpcapital.png) no-repeat top left;*/
+			background: url(img/cbgi_logo.png) no-repeat top left;
+			float:left;
+			width: 455px;
+			height: 33px;
+		}
+
+		#header-info {
+			float:right;
+			width: 340px;
+			text-align: right;
+			font-size: 11px;
+			color: #000000;
+			text-decoration: none;
+		}
+
+			li.nombre_asesor {
+				font-weight: bold;
+				font-family: Arial, Verdana, Helvetica, sans-serif;
+			}
+
+/*Estilos para el menú incluido en el header*/
+
+
+		#menu {
+			display: block;
+			width: 98%;
+			height: 26px;
+			margin-bottom:8px;
+		}
+
+		.menu-principal-titulo {
+			color:#666666;
+			font-size:11px;
+			font-weight:bold;
+			padding:0px 15px 0px 10px;
+		}
+		
+			#menu_principal {
+				margin: 0;
+				padding: 0;
+				width: 100%;
+				position: relative;
+				padding-top: 5px;
+				color: #333!important;
+			}
+
+				#menu_principal li.on ul, #menu_principal li.off ul {
+					margin: 0;
+					padding: 0;
+				}
+
+				#menu_principal a {
+					text-decoration: none;
+				}
+
+				#menu_principal li { /*float the main list items*/
+					/* float: left; */
+					display: inline;
+				}
+
+				#menu_principal li ul {
+					display: none;
+				}
+
+				#menu_principal li.off ul, #menu_principal li.on ul { /*put the subnav below*/
+					position: absolute;
+					left: 0;
+					padding-top: 0px;
+					background: #d6e3b0;
+					height: 20px;
+					width: 600px;
+				}
+
+				#menu_principal li a {
+					-webkit-border-radius: 4px;
+					-moz-border-radius: 4px;
+					border-radius: 4px;
+					/*behavior: url(PIE.htc);*/
+					color: #333;
+					font-size: 11px;
+					/* display: block; */
+					padding: 0px 8px 0px 8px;
+					/* height:22px; */
+				}
+
+				#menu_principal li.on a {
+					/* background-color: #9DCAE1; */
+					/* color: #ffffff; */
+				}
+
+				#menu_principal li.on ul, #menu_principal li.off ul {
+					padding-top: 10px;
+				}
+				
+				#menu_principal li.on ul a, #menu_principal li.off ul a {
+					/*float: left;*/ /*ie doesn't inherit the float*/
+					display: inline;
+					border: 0;
+					padding: 5px 5px 3px 5px;
+					/*margin-right: 15px;*/
+					font-size: 11px;
+					font-weight: normal;
+					color: #000000;
+					background-color: transparent !important;
+				}
+
+				#menu_principal li.off:hover ul , #menu_principal li.over ul, #menu_principal li.on ul, #menu_principal li.cliqueado ul{
+					color: #ffffff;
+					display: block;
+					z-index: 6000;
+					width: 600px;
+					background-color: transparent;
+				}
+
+				#menu_principal li.cliqueado ul {
+					z-index: 0;
+				}
+
+				#menu_principal li.off a:hover, #menu_principal li.on a, #menu_principal li.cliqueado a {
+					/* background-color: #0074b8; */
+					color: #333;
+					text-decoration: underline;
+				}
+
+				#menu_principal li.on ul a:hover, #menu_principal li.off ul a:hover, #menu_principal ul li.cliqueado a {
+					font-weight: normal;
+					text-decoration: underline;
+				}
+				
+				#menu_principal li span.separador {
+					font-size: 11px;
+					color: #333;
+				}
+
+/*Estilos del contenido central*/
+	div.main-group {
+		padding-top: 20px;
+		width: 100%;
+	}
+
+	div.main-group div.group {
+		margin: 0 auto;
+	}
+
+	/*Agrupa contenido que debe interpretarse como una unidad*/
+	div.group {
+		padding: 10px;
+		background-color: white;
+		width: 923px;
+		border: solid 1px #dddddd;
+		text-align: center;
+	}
+	
+	/* Sección de Login */
+	/*fieldset.login {
+		margin-top: 10px;
+	}
+	
+	fieldset.login legend {
+		background-color: #0074B8;
+		color: #FFFFFF;
+		padding: 3px 3px 3px 3px;
+		border:1px solid #0074B8;
+	}*/
+	
+	form.login {
+    /*margin-left: 155px;*/
+		width: 100%;
+	}
+
+		form.login fieldset {
+			margin-top: 5px;
+			margin-bottom: 10px;
+			/*margin-left: -155px;*/
+			/*border:1px solid #0074B8;*/
+			border:1px solid #dddddd;
+		}
+		
+			form.login legend {
+				font-size:13px;
+				font-weight: bold;
+				color: #0074B8;
+				padding: 3px;
+				margin-left: 2px;
+			}
+			
+			form.login fieldset dl {
+					/*margin: 0 0 0 155px;*/
+					padding: 0;
+			}
+			
+			form.login fieldset dd {
+					padding: 5px;
+					margin: 0;
+					/*clear: both;*/
+			}
+
+			form.login dt {
+					padding: 5px;
+					font-weight: normal;
+					float: left;
+					text-align:right;
+					/*margin-left: -10px;*/
+					width: 350px;
+			}
+			
+			form.login .level2 {
+					/*text-align: center;*/
+					margin-bottom: 5px;
+					margin-left:360px;
+			}
+
+.ContenedorTablaInformacion{
+	
+	
+}
+
+.contenedor-Izquierda{
+	
+	float:left;
+	width:50%;
+}
+.contenedor-Derecha{
+	
+	float:left;
+	width:49%;
+}
+
+.CampoDato{
+	border-bottom:0px solid #0074B8;
+height:23px;
+margin:3px;
+padding:3px;
+	
+}
+
+.nombre-dato {
+	width:50%;
+	float:left;
+	height:22px;
+	
+}
+
+.valor-dato{
+	width:49%;
+	float:right;
+}
+
+.campo-texto{
+	border:1px solid #0074b8;
+	width:100%;
+
+}
+.dimensionesfijas{
+	height:150px!important;
+	height:150px!important;
+}
+

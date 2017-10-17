@@ -20,8 +20,8 @@ gulp.task('webserver', function() {
 gulp.task('minify', function() {
 	console.log('Minificamos a JS ');
 	return gulp.src('src/js/*.js')
-	.pipe(concat('all.js'))
-	.pipe(gulp.dest('build/js/'));
+	.pipe(concat('*.js')) // para concatenar todos los JS usamos '*', de no ser asi usamos el nombre correspondiente 'all.js'
+	.pipe(gulp.dest('build/assets/js/'));
 });
 
 gulp.task('jshint', function() {
@@ -35,7 +35,7 @@ gulp.task('sass', function() {
 	console.log('compilando a CSS');
 	return gulp.src('src/sass/*.scss')
 	.pipe(sass().on('error', sass.logError))
-	.pipe(gulp.dest('build/css/'));
+	.pipe(gulp.dest('build/assets/css/'));
 });
 
 // Esta tarea observa si existen cambios en nuestros JS

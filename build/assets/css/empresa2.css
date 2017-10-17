@@ -1,0 +1,426 @@
+/* ==========================================================================
+   ICONS 454543534543
+   ========================================================================== */
+[class^="icon-"],
+[class*=" icon-"] {
+  background-image: url(../img/icon-azul-e.png);
+}  
+
+[class*="icon-grande"]  { background-image: url(../img/icon-azul-large-e.png); } 
+[class*="icon-xlarge"]  { background-image: url(../img/icon-azul-xlarge-e.png); }
+
+
+
+
+
+
+/* ==========================================================================
+   BREADCRUMBS EMPRESAS
+   ========================================================================== */
+.breadcrumbs {
+  background: #ff9900;
+  border-top: 1px solid #DDD;
+  border-bottom: 1px solid #DDD;
+}
+
+.breadcrumbs .icon-home {
+  background-position: -1665px 0;
+}
+
+
+
+
+/* ==========================================================================
+   HEADER EMPRESAS
+   ========================================================================== */
+#header,
+.wpthemeBannerInner {
+	background: #F4F3F1!important;
+}
+
+.nav-top,
+.wpthemeBanner .wpthemePrimaryNav {
+   border-right: 1px solid #e4e4e4;
+}
+
+#nav-principal li,
+.wpthemeBanner .wpthemeInner .wpthemePrimaryNav li {
+  border-left:  1px solid #e4e4e4;
+}
+
+#nav-principal li a,
+.wpthemeBanner .wpthemeInner .wpthemePrimaryNav li a {
+	color: #003766;
+}
+
+#nav-principal .icon-nav-bottom { 
+	background-image: url(../img/icon-naranjo.png);
+}
+
+
+/* ===================================
+   NAV PRINCIPAL
+   =================================== */
+#nav-principal > li > a {
+
+}
+
+
+
+
+/* ==========================================================================
+   NAV USER
+   ========================================================================== */
+.nav1, .nav1 a { width: 123px; }
+.nav2, .nav2 a { width: 147px; }
+.nav3, .nav3 a { width: 142px; }
+.nav4, .nav4 a { width: 115px; }
+
+.nav1 a { *width: 85px; }
+.nav2 a { *width: 109px; }
+.nav3 a { *width: 104px; }
+.nav4 a { *width: 76px; }
+
+
+.nav-user > ul > li {
+  border: 1px solid #F4F3F1;
+}
+
+.nav-user ul > li:hover  {
+  border: 1px solid #DDD;
+}
+
+
+
+
+
+.nav-user i {
+  background-image: url(../img/icon-azul-e.png)!important;
+}
+
+
+.nav-user .mensaje {
+  background: #F3791F;
+}
+
+
+
+/* ==========================================================================
+   ALERTA CAMPANA
+   ========================================================================== */
+.alerta-campanas .arrow-top {
+  background:url(../img/arrows-e.png) 0 0 no-repeat;
+}
+
+.table-thead .filtrar-top i,
+.table-thead .filtrar-bottom i {
+   background-image: url(../img/icon-azul-e.png);
+}
+
+
+
+
+/* ==========================================================================
+   TABLA THEAD COLOR
+   ========================================================================== */
+html .table-thead th,
+.table-thead th:hover {
+   background: url(../img/bg-table-thead-e.jpg) 0 0 repeat-x #022B59;
+}
+
+html .table-thead th i {
+   background-image: url(../img/icon-blanco.png);
+}
+
+.rows th {
+  background: #022B59!important;
+}
+
+html .table-thead a.tableHeadSortLink:hover {
+  background: none;
+}
+
+.table-thead th img[src*="arrow_down.gif"] {
+  content: url("../img/arrow-down-e.png")!important;
+}
+
+
+
+.dj_gecko .table-thead th img[src*="arrow_down.gif"]:before {
+  content: url("../img/arrow-down-e.png")!important;
+}
+
+
+
+
+
+.table-thead th img[src*="arrow_up.gif"] {
+  content: url("../img/arrow-up-e.png")!important;
+}
+
+/* ==========================================================================
+   PORLET
+   ========================================================================== */
+.nav-header:hover .icon-accion {
+  background-image: url(../img/icon-azul-e.png);
+}
+
+
+/* ==========================================================================
+   PORLET FOOTER
+   ========================================================================== */
+.porlet-footer i {
+
+}
+
+/* ==========================================================================
+   PORLET - CONFIGURAR
+   ========================================================================== */
+.ajustes-config ul {
+  clear: both;
+  overflow-y: scroll;
+  margin: 0px 0 30px 0;
+  height: 96px;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+}
+
+.ajustes-config li {
+  width: 300px;
+  float: left;
+  margin-bottom: 10px;
+} 
+
+/* ==========================================================================
+   COLOR AZUL
+   ========================================================================== */
+.nav-user li a,
+.cerrarsesion button {
+  color: #003766;
+}
+
+
+/* ==========================================================================
+   LOGIN
+   ========================================================================== */
+
+
+
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+#footer {
+  width: 100%;
+  min-width: 1000px;
+  clear: both;
+  margin-top: 25px;
+   border-bottom: 1px solid #e6e6e6;
+  background: #999;
+}
+
+.cont-footer {
+  width: 940px;
+  height: 80px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.cont-footer .accesos {
+  float: left;
+  height: 65px;
+  padding-top: 15px;
+}
+
+.cont-footer .accesos * {
+  color: #FFF;
+  line-height: 14px;
+}
+
+.cont-footer .accesos i {
+  float: left;
+  margin-top: -1px;
+}
+
+.cont-footer .accesos .info-acceso {
+  float: left;
+  margin-left: 10px;
+}
+
+.cont-footer .accesos .first {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+.cont-footer  .first-accesos {
+  
+  padding-right: 70px;
+  width: 220px;
+  margin-right: 110px;
+}
+
+.accesos-center { width: 200px; }
+
+.cont-footer  .last-accesos {
+  
+  margin-left: 40px;
+  width: 220px;
+  padding-left: 40px;
+  float: right;
+}
+
+.cont-footer  .last-accesos  .info-acceso,
+.cont-footer  .last-accesos i {
+  float: right;
+  text-align: right;
+}
+
+.bottom-footer {
+  width: 100%;
+  height: 28px;
+  line-height: 28px;
+  background: url(../img/bg-bottom-footer.png) 0 0 repeat-x;
+  clear: both;
+  text-align: center;
+  color: #003766;
+}
+
+.bottom-footer a {
+  color: #F47920;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+/* ==========================================================================
+   FONDOS AZULES
+   ========================================================================== */
+.campana,
+.alert-content,
+html body .cont-paginator .activado a,
+html body .cont-paginator .activado span,
+.nav-titulos-content ul li.activado,
+.agente-inversion .head,
+.anuncio-login { background: #003767; }
+
+html body .bg-secundario  { background: #32434D; }
+
+
+/* ==========================================================================
+   FORM COLUMNAS
+   ========================================================================== */
+
+/*r4-18-dap-tomar-deposito-plazo-consulta.html*/
+
+#form-deposito-dap{
+  width: 900px;
+}
+.nav-titulos-content ul li.activado{
+	 background: #003766 !important;
+	}
+
+
+
+
+
+
+/* ==========================================================================
+   ROLL OVER MENSAJE
+   ========================================================================== */
+
+#mensaje{
+  background: #f8f8f8;
+  position: relative;
+}
+#mensaje .cont_condiciones {max-height:300px;overflow-y:auto;}
+#mensaje #cerrar{
+position: absolute;
+right: 0;
+top:  0;
+}
+.show {
+    display: block !important;
+}
+	
+/* ==========================================================================
+   Estilos PAC 
+   ========================================================================== */
+
+.pac{position: absolute;
+    margin-top: -9px;
+    margin-left: 483px;}
+.pac2{position: absolute;
+    margin-top: 8px;
+    margin-left: 242px;
+}
+
+
+ 
+
+
+
+/* ==========================================================================
+   FIN ROLL OVER MENSAJE
+   ========================================================================== */
+
+   .liquidar-dap td {
+    padding: 2px;
+}
+.margen4-top {
+    margin-top: 15px;}
+	
+	
+
+/*   COMPRA Y VENTA DE DIVIAS*/
+
+.icon-color {background-image:url(../img/sprite-icon-peq.png);}
+.ico-alerta-aviso  {background-position:-23px 0!important;width:25px!important;height:22px!important;} 
+.bloque .txt-nota-divisas {width: 96%;}
+.mensaje-divisas{ width: 86%;
+    min-height: 20px;
+    padding: 10px;
+    border: 1px solid #EC7404;
+    border-radius: 5px;
+    background: #FFF!important;}
+.mensaje-divisas p{display: inline-block;
+    width: 83%;
+    margin-left: 10px;}
+
+.mensaje-divisas2{    width: 95%;
+   min-height: 20px;
+    padding: 10px;
+    border: 1px solid #EC7404;
+    border-radius: 5px;
+    background: #FFF!important;}
+	
+.mensaje-divisas2 p{    display: inline-block;
+    width: 90%;
+    margin-left: 5px;}
+	
+.error-divisa{background:#7B7C7C; width:90%;padding: 20px 18px;
+    overflow: hidden;
+    color: #FFF;}
+.t-error {width: 100%;}
+	
+.error-divisa p{    display: inline-block;
+    width: 90%;
+    margin-left: 5px;}
+	
+	.error-divisa2{background:#7B7C7C; width:93%;padding: 20px 18px;
+    overflow: hidden;
+    color: #FFF;}
+.error-divisa2 p{    display: inline-block;
+    width: 90%;
+    margin-left: 5px;}
+.error-divisa2 .boton{    margin: auto;
+    display: block;
+    width: 110px;}
+	
+	
+
+	
+
+	
+	
+	

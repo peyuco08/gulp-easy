@@ -1,0 +1,535 @@
+/* ==========================================================================
+   LOGIN
+   ========================================================================== */
+.bg-login {
+	height: 200%;
+    left: -50%;
+    position: fixed;
+    width: 200%;
+	top:0;
+	left:0;
+}
+.bg-login img {
+	bottom: 0;
+    left: 0;
+    margin: auto;
+    min-height: 50%;
+    min-width: 50%;
+    right: 0;
+    top: 0;
+}
+
+#login, 
+#login-large {
+    position:relative;
+    min-height:100%; 
+    margin:50px auto 0;
+    z-index:10;
+}
+ 
+#login {
+    width: 310px;
+}
+#login-large {
+    width: 616px;
+}
+
+#login input[type="password"] {
+	width: 94%;
+}
+
+.ingreso-ok {
+    padding: 10px 20px; 
+    background: #FF7C24; 
+}
+.ingreso-ok p {
+    color: #fff;
+    }
+
+#login-logo {
+	clear:both;
+	width:auto; 
+	overflow:hidden;
+	padding:5px 20px;
+	margin: 10px 0;
+}
+
+#login-large .exito {
+	margin: 0 20px;
+}
+
+#login-conteiner, #login-footer {
+	width:auto;
+	background:url(../img/bg-caja-login.png) repeat transparent;
+	filter: progid:DXImageTransform.Microsoft.gradient(
+        startColorstr=#00FFFFFF, endColorstr=#00FFFFFF
+    );
+}
+#login-hader {
+	height:20px;
+	padding:5px 0;
+	border-bottom:1px solid #ccc;
+}
+#login-hader a{
+	display:block;
+	width:auto;
+	text-align:left;
+	margin-left:20px;
+	color:#373D45;
+}
+
+#login-logo .logo { float: left; margin-right: 10px; }
+
+#login-logo .lat-logo {
+	float: left;
+	width: 210px;
+}
+
+#login-logo .titulo-logo {
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 45px;
+} 
+
+#login-logo .con-nombre .titulo-logo {
+	line-height: 15px;
+}
+
+#login-logo .con-nombre .nombre {
+	margin-top: 10px;
+	color: #666;
+}
+
+.error-validacion {
+	background: url(../img/bg-error-validacion.png) 0 0 repeat-x #7B7C7C;
+	padding: 20px;
+	overflow: hidden;
+	color: #FFF;
+}
+
+.error-validacion i {
+	float: left;
+}
+
+.error-validacion .mensaje {
+	float: right;
+	width: 89%;
+}
+
+.error-validacion .mensaje p {
+	margin-bottom: 5px;
+	line-height: 14px;
+}
+
+#login .bajada-info,
+#login-large .bajada-info  {
+    margin:20px 20px 0 20px;
+    font-style: italic;
+}
+
+#login .bajada-info p {
+	margin-bottom: 5px;
+}
+
+
+#login-footer {
+	font-size: 12px;
+	font-weight: bold;
+	color:#32434D;
+	overflow: hidden;
+}
+
+#login-conteiner p {
+	line-height:14px;
+}
+
+#login-logo .bajada-logo {
+	margin-top: 10px;
+	display:inline-block;
+}
+#login .italic {
+	font-style:italic;
+}
+#login label {
+	font-weight:bold; 
+	color:#333;
+	cursor:auto;
+}
+#login form, .login-content,
+#login-large form {
+	padding:5px 20px;
+}
+#login form fieldset > div,
+#login-large form fieldset > div {
+	overflow:hidden;
+}
+#login .header-login,
+#login-large .header-login {
+    border:1px solid red;
+    overflow:hidden;
+} 
+#login .olvido, #login .ayuda {
+	font-style:italic;
+	color:#666;
+}
+#login .ayuda {
+	font-style:normal;
+}
+#login .pre-header {
+	height:auto;
+}
+#login .exito {
+	font-size:14px;
+	font-weight:bold;
+	padding:0;
+	text-align:left;
+	width:auto;
+	clear:both;
+	margin:26px 0 26px 20px;
+}
+
+/*=== Anuncio login ===*/
+.anuncio-login {
+	width:auto;
+	overflow:hidden;
+	margin: 0 20px;
+}
+
+.anuncio-login .thumbs-cam {
+	width: 135px;
+	float: left;
+}
+
+.anuncio-login .info-cam {
+	width: 115px;
+	margin:10px 10px 0 10px;
+	float: right;
+}
+
+.bloque.anuncio-login {
+	margin: 10px auto;
+    position: relative;
+    width: 310px;
+    z-index: 1000;
+    border:none;
+}
+.anuncio-login img {
+	float:left;
+	display:block;
+}
+
+.anuncio-login p, .anuncio-login a {
+	float:left;
+	color:#fff;
+}
+.anuncio-login a {
+	margin-top: 10px;
+}
+.anuncio-login a:hover {
+	text-decoration:underline;
+}
+
+/*=== FIN Anuncio login ===*/
+
+#footer-login {
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:auto;
+	z-index:1000;
+	background: #f47920;
+	color: #fff;
+}
+#content-login {
+	width:600px;
+	height: 31px;
+	line-height: 31px;
+	margin: 0 auto;
+}
+#content-login p {
+	text-align: center;
+}
+#content-login a {
+	color: #FFF;
+} 
+#login-footer i {
+ 	margin-top: -4px;
+ 	color: #373D45;
+}
+#login i, 
+#footer-login i {
+	margin-right: 10px;
+}
+
+.cerrar-login {
+	float: right;
+	height: 40px;
+	border-left: 1px solid #ddd;
+	padding-left: 10px;
+}
+
+.cerrar-login  a {
+	display: block;
+	line-height: 40px;
+}
+
+.cerrar-login  a i {
+	margin-top: -1px;
+}
+
+/* ==========================================================================
+   LOGIN LARGO
+   ========================================================================== */
+.login-contenedor {
+	margin: 0 auto;
+	width: 942px;
+	position: relative;
+	z-index: 1000;
+}
+
+.login-largo {
+	width: 920px;
+	background: #fff;
+	margin-bottom:40px;
+	padding: 10px;
+	float: left;
+}
+.login-largo-head {
+	background: #FFFFFF;
+    height: 48px;
+    margin: 20px auto;
+    padding: 10px;
+    width: 920px;
+}
+.login-largo-head h3 {
+	margin: 12px 0 0 10px;
+}
+.login-largo .modulo-left {
+	width:550px ;
+}
+.login-largo .modulo-right {
+	float: right; 
+	width: 328px;
+}
+.login-largo  .mensaje-respuesta {
+	padding: 20px 0;
+}
+.login-bloque {
+	width: 270px;
+	margin:30px auto 10px;
+	position: relative;
+	z-index: 1000;
+	overflow: hidden;
+	padding: 10px 20px;
+	background: url(../img/bg-caja-login.png) repeat scroll 0 0 transparent; 
+}
+.bloque-interior .button-login {
+	width: 210px;
+}
+.login-bloque .bloque-interior {
+	display: inline-block;
+    margin: 10px 0;
+}
+.contenedor-logo .cerrarsesion { margin-top:8px; border-left: 1px solid #ccc;}
+.contenedor-logo img { display: block; float: left; margin-right: 16px;}
+.contenedor-logo a { color: #666;}
+.contenedor-logo button i {margin-top: -2px;}
+.bloque-interior form { margin:0 auto; }
+}
+
+#login-logo .logo { float: left; margin-right: 10px; }
+
+.olvido-contrasena { 
+	clear: both;
+	font-size: 12px;
+	color: #666;
+	margin-top: 20px;
+}
+
+.olvido-contrasena h5 {
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+
+.lat-logo.logo-empresa {
+}
+
+.lat-logo.logo-empresa .titulo-logo  {
+	float: left;
+	width: 160px;
+}
+
+.lat-logo.logo-empresa img {
+	float: right;
+}
+
+#login-large .exito span {
+    font-weight: normal;
+}
+ 
+#footer-login {
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    width:100%;
+    min-width: 1000px;
+    background: #f47920;
+    color: #fff;
+    z-index: 1002;
+}
+ 
+ 
+ 
+#content-login {
+    width:600px;
+    height: 31px;
+    line-height: 31px;
+    margin: 0 auto;
+}
+#content-login p {
+    text-align: center;
+}
+#content-login a {
+    color: #FFF;
+} 
+#login-footer i {
+    margin-top: -4px;
+    color: #373D45;
+}
+#login i, 
+#footer-login i {
+    margin-right: 10px;
+}
+ 
+.cerrar-login {
+    float: right;
+    height: 40px;
+    border-left: 1px solid #ddd;
+    padding-left: 10px;
+}
+ 
+.cerrar-login  a {
+    display: block;
+    line-height: 40px;
+}
+ 
+.cerrar-login  a i {
+    margin-top: -1px;
+}
+ 
+/* ==========================================================================
+   LOGIN LARGO
+   ========================================================================== */
+.login-contenedor {
+    margin: 0 auto;
+    width: 942px;
+    position: relative;
+    z-index: 1000;
+}
+ 
+.login-largo {
+    width: 920px;
+    background: #fff;
+    margin-bottom:40px;
+    padding: 10px;
+    float: left;
+}
+.login-largo-head {
+    background: #FFFFFF;
+    height: 48px;
+    margin: 20px auto;
+    padding: 10px;
+    width: 920px;
+}
+.login-largo-head h3 {
+    margin: 12px 0 0 10px;
+}
+.login-largo .modulo-left {
+    width:550px ;
+}
+.login-largo .modulo-right {
+    float: right; 
+    width: 328px;
+}
+.login-largo  .mensaje-respuesta {
+    padding: 20px 0;
+}
+.login-bloque {
+    width: 270px;
+    margin:30px auto 10px;
+    position: relative;
+    z-index: 1000;
+    overflow: hidden;
+    padding: 10px 20px;
+    background: url(../img/bg-caja-login.png) repeat scroll 0 0 transparent; 
+}
+.bloque-interior .button-login {
+    width: 210px;
+}
+.login-bloque .bloque-interior {
+    display: inline-block;
+    margin: 10px 0;
+}
+.contenedor-logo .cerrarsesion { margin-top:8px; border-left: 1px solid #ccc;}
+.contenedor-logo img { display: block; float: left; margin-right: 16px;}
+.contenedor-logo a { color: #666;}
+.contenedor-logo button i {margin-top: -2px;}
+.bloque-interior form { margin:0 auto; }
+}
+
+
+#login-large .form-large form {
+    overflow: hidden;
+    margin: 30px 0 20px;
+}
+#login-large .form-large form .first,
+#login-large .form-large form .last {
+    float: left;
+    width: 45%;
+}
+#login-large .form-large form .first {
+    margin-right: 50px;
+}
+ 
+.form-large h3 {
+    color: #FF7C24;
+    font-size: 14px; 
+    font-weight: bold;
+}
+.form-large .bajada {
+    padding: 10px 20px;
+    overflow: hidden;
+}
+.content-aceptar {
+    overflow: hidden;
+    margin-right: 20px;
+}
+ 
+#form-claves-accesos,
+#form-claves-accesos .cont-claves {
+    width: 576px;
+    float: left;
+    clear: both;
+}
+ 
+#form-claves-accesos {
+    margin-top: 20px;
+    padding: 0 20px;
+}
+ 
+#form-claves-accesos .clave-left {      
+    float: left;
+}
+ 
+#form-claves-accesos .clave-right {     
+    float: right;
+}
+ 
+#form-claves-accesos .separa-acceso {
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 10px;
+}
+ 
+ 
+.no-fixed { position: relative!important; margin-top: 20px; }
