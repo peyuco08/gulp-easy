@@ -1,10 +1,46 @@
-include blocks/header
+doctype HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"
+html
+	include blocks/header
+	style body {font-family: Arial} .nav-titulos ul li.activo { color: rgb(255, 255, 255); background: rgb(10, 52, 111); } .nav-titulos ul li.activo a { color: rgb(255, 255, 255); }
 	body#ffmm.claro
-		h1 Pug - node template engine
-		include blocks/menu
-		#container.col
-			p Este es un parrafo
-			ul
-				li esta es una lista
-		#footer Este es el footer
-			small este es info
+		div.wrapper
+			div.container.container-cp
+				div.row
+					div.span9
+						h2.margen1-bottom Comprar y vender divisas
+						div.modulo.modulo-medium.shadow2.radius.margen1-bottom
+							// Modulo 1
+							div.modulo-filtro.border-gris-suave
+								div.detalle-venta
+									i.ico-horario
+									h2 Horario de compra y venta de dólares
+									p!= 'Recuerda que puedes realizar transacciones de compra y venta de dólares en línea<br> <strong>de lunes a viernes de 09.00 a 13.30 h.</strong>'
+					div.span3
+						div.nav-titulos.radius.shadow2
+							h4
+								i.icon-home2.icon-naranjo
+								a(class='current' href='#;' title='volver') Operaciones de Comprar o vender divisas
+							div.nav-titulos-content.nomina-gestionar
+								// nav-titulos-content
+								h3
+									i.icon-editar2.icon-naranjo
+									|Operaciones
+								ul
+									li.activo
+										i.icon-blanco.icon-nav-right
+										a(class='activo' href='javascript:void(0);') Comprar o vender divisas
+									li.current
+										i.icon-gris.icon-nav-right
+										a(class='current' href='javascript:void(0);') Ver firmas pendientes
+							div.nav-titulos-content
+								// nav-titulos-content
+								h3
+									i.icon-consultas.icon-naranjo
+									|Consultas
+								ul
+									li.current
+										i.icon-gris.icon-nav-right
+										a(class='current' href='javascript:void(0);') Consultar histórico
+									li.current
+										i.icon-gris.icon-nav-right
+										a(class='current' href='javascript:void(0);') Descargar certificados	

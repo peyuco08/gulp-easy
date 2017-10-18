@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";;;AAIQ,gEAAwD;;AAEhE,SAAU;EACN,WAAW,EAAE,uBAAuB;EACpC,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,KAAK;EACZ,UAAU,EAAE,OAAO;EACnB,MAAM,EAAE,iBAAiB;EACzB,kBAAkB,EAAE,uBAAoC;EACxD,eAAe,EAAK,uBAAoC;EACxD,UAAU,EAAU,uBAAoC",
+"sources": ["../../../Source/sass/partials/_boton-principal.scss"],
+"names": [],
+"file": "new-buttons.css"
+}

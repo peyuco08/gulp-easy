@@ -20,7 +20,7 @@ gulp.task('webserver', function() {
 gulp.task('minify', function() {
 	console.log('Minificamos a JS ');
 	return gulp.src('src/js/*.js')
-	.pipe(concat('*.js')) // para concatenar todos los JS usamos '*', de no ser asi usamos el nombre correspondiente 'all.js'
+	.pipe(concat('all.js'))
 	.pipe(gulp.dest('build/assets/js/'));
 });
 
