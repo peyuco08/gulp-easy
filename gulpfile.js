@@ -33,7 +33,7 @@ gulp.task('jshint', function() {
 // Definimos nuestra tarea para pasar nuestros SCSS a CSS
 gulp.task('sass', function() {
 	console.log('compilando a CSS');
-	return gulp.src('src/sass/*.scss')
+	return gulp.src('src/sass/estilos.scss')
 	.pipe(sass().on('error', sass.logError))
 	.pipe(gulp.dest('build/assets/css/'));
 });
